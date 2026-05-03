@@ -3,7 +3,9 @@ import * as api from './api.js';
 // --- STAV APLIKACE ---
 let state = {
     user: null,
-    events: []
+    events: [],
+    filter: 'all',
+    userSignups: []
 };
 
 // --- INICIALIZACE ---
@@ -50,6 +52,8 @@ function updateNav() {
             e.preventDefault();
             localStorage.removeItem('helmac_user');
             state.user = null;
+            state.filter = 'all';
+            state.userSignups = [];
             window.location.hash = '#/';
             router();
         });
@@ -60,11 +64,35 @@ function updateNav() {
 
 async function renderHome(container) {
     let html = `<h1 class="page-title">Program koňference</h1>`;
-    if (state.events.length === 0) {
-        html += `<p>Žádný program zatím nebyl zveřejněn.</p>`;
+
+    if (state.user) {
+        // Fetch current signups on render to be always up-to-date
+        state.userSignups = await api.getUserSignups(state.user.id);
+        
+        const btnAllClass = state.filter === 'all' ? 'btn' : 'btn btn-secondary';
+        const btnMineClass = state.filter === 'mine' ? 'btn' : 'btn btn-secondary';
+        html += `
+            <div class="filter-toggle">
+                <button id="filter-all" class="${btnAllClass}">Kompletní program</button>
+                <button id="filter-mine" class="${btnMineClass}">Můj program</button>
+            </div>
+        `;
+    }
+
+    let eventsToRender = state.events;
+    if (state.filter === 'mine' && state.user) {
+        eventsToRender = state.events.filter(ev => state.userSignups.includes(ev.id));
+    }
+
+    if (eventsToRender.length === 0) {
+        if (state.filter === 'mine') {
+            html += `<p>Zatím nejste přihlášeni na žádný bod programu.</p>`;
+        } else {
+            html += `<p>Žádný program zatím nebyl zveřejněn.</p>`;
+        }
     } else {
         const days = {};
-        for (const ev of state.events) {
+        for (const ev of eventsToRender) {
             const startTime = ev.time.split('-')[0].trim();
             if (!days[ev.day]) days[ev.day] = {};
             if (!days[ev.day][startTime]) days[ev.day][startTime] = [];
@@ -95,6 +123,17 @@ async function renderHome(container) {
         }
     }
     container.innerHTML = html;
+
+    if (state.user) {
+        document.getElementById('filter-all').addEventListener('click', () => {
+            state.filter = 'all';
+            renderHome(container);
+        });
+        document.getElementById('filter-mine').addEventListener('click', () => {
+            state.filter = 'mine';
+            renderHome(container);
+        });
+    }
 }
 
 async function renderEventDetail(container, eventId) {

@@ -187,6 +187,13 @@ main {
 }
 
 /* Forms & Buttons */
+.filter-toggle {
+  display: flex;
+  gap: var(--spacing-sm);
+  justify-content: center;
+  margin-bottom: var(--spacing-lg);
+}
+
 .form-group {
   margin-bottom: var(--spacing-md);
 }

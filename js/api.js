@@ -44,6 +44,15 @@ export async function getSignupsForEvent(eventId) {
     }));
 }
 
+export async function getUserSignups(userId) {
+    if (!userId) return [];
+    const url = `${API_URL}/rest/v1/signups?user_id=eq.${userId}&select=event_id`;
+    const res = await fetch(url, { headers: getHeaders() });
+    if (!res.ok) return [];
+    const data = await res.json();
+    return data.map(s => s.event_id);
+}
+
 export async function toggleSignup(userId, eventId) {
     const url = `${API_URL}/rest/v1/signups?user_id=eq.${userId}&event_id=eq.${eventId}`;
     const getRes = await fetch(url, { headers: getHeaders() });
