@@ -173,8 +173,19 @@ function renderLogin(container) {
         btn.innerText = "Zpracovávám...";
         
         try {
+            // Fallback pro lokální testování (kde nemusí fungovat crypto.randomUUID kvůli chybějícímu HTTPS)
+            const getUUID = () => {
+                if (typeof crypto !== 'undefined' && crypto.randomUUID) {
+                    return crypto.randomUUID();
+                }
+                return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+                    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+                    return v.toString(16);
+                });
+            };
+
             const userObj = {
-                id: crypto.randomUUID(),
+                id: getUUID(),
                 name: name
             };
             
@@ -186,7 +197,7 @@ function renderLogin(container) {
             window.location.hash = '#/';
         } catch (error) {
             console.error(error);
-            alertBox.innerHTML = `<div class="alert alert-error">Chyba: Zkontrolujte spojení s databází (klíče v config.js).</div>`;
+            alertBox.innerHTML = `<div class="alert alert-error">Chyba: ${error.message} <br>(Pokud chyba přetrvává, zkontrolujte config.js).</div>`;
             btn.disabled = false;
             btn.innerText = "Zkusit znovu";
         }
