@@ -101,7 +101,7 @@ async function renderHome(container) {
         }
 
         for (const day in eventsByDay) {
-            html += `<h2 class="day-title">${day}</h2>`;
+            html += `<h2 class="day-title">${day}</h2><div class="schedule-day">`;
 
             for (const startTime in eventsByDay[day]) {
                 const slots = eventsByDay[day][startTime];
@@ -122,6 +122,7 @@ async function renderHome(container) {
                 }
                 html += `</div>`;
             }
+            html += `</div>`;
         }
     }
     container.innerHTML = html;

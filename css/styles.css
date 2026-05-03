@@ -174,19 +174,27 @@ main {
 /* ============================================================
    KALENDÁŘOVÁ MŘÍŽKA
    ============================================================ */
-/* Řádek časového slotu: paralelní události vedle sebe (max 3) */
+
+/* Wrapper celého dne — blokový kontejner */
+.schedule-day {
+  display: block;
+  width: 100%;
+  margin-bottom: var(--spacing-lg);
+}
+
+/* Řádek časového slotu: paralelní události vedle sebe */
 .time-slot-row {
   display: flex;
+  flex-wrap: nowrap;
   gap: var(--spacing-md);
   margin-bottom: var(--spacing-md);
-  align-items: stretch;
+  align-items: flex-start;
+  width: 100%;
 }
 
 .time-slot-row .event-card {
   flex: 1 1 0;
   min-width: 0;
-  /* Na desktopu max 3 sloupce: u jednoho 100%, dvou 50%, tří 33% */
-  max-width: 100%;
 }
 
 /* Mobilní: vždy jeden sloupec */
