@@ -1,34 +1,255 @@
 [
   {
-    "id": "event-1",
-    "title": "Opening Keynote: Future of Merchandising",
-    "time": "09:00–10:00",
-    "day": "2026-09-12",
-    "location": "Main Hall",
-    "description": "Zahajovací přednáška o budoucnosti retailu, inovativních přístupech a optimalizaci operací. Proběhne představení vize pro rok 2026 a dále."
+    "id": "thu-1",
+    "title": "Představení agendy víkendovky",
+    "time": "20:00-20:30",
+    "day": "Čtvrtek",
+    "description": "Garant: Tumi"
   },
   {
-    "id": "event-2",
-    "title": "Synergy in Culinary Solutions",
-    "time": "10:30–12:00",
-    "day": "2026-09-12",
-    "location": "Room Beta",
-    "description": "Workshop zaměřený na optimalizaci cateringu pomocí synergie. Zjistíte, jak 'Fueling your innovation cycle with synergy-optimized food' funguje v praxi."
+    "id": "thu-2",
+    "title": "Barevné ohňové pokusy",
+    "time": "21:00-21:30",
+    "day": "Čtvrtek",
+    "description": "Garant: Mery"
   },
   {
-    "id": "event-3",
-    "title": "Closure Operations Security",
-    "time": "13:00–14:30",
-    "day": "2026-09-12",
-    "location": "Main Hall",
-    "description": "Hloubkový pohled na bezpečnostní prověrky (zejména Level Beta), krizové scénáře a nejlepší praktiky pro closure operations v korporátním prostředí."
+    "id": "fri-1",
+    "title": "Snídaně",
+    "time": "10:00-11:00",
+    "day": "Pátek"
   },
   {
-    "id": "event-4",
-    "title": "Networking & Energy Supply",
-    "time": "15:00–17:00",
-    "day": "2026-09-12",
-    "location": "Lounge",
-    "description": "Neformální networking spojený s degustací Phase 1 Energy Supply od Mery Culinary Solutions™. Diskutujte s kolegy a získejte kontakty."
+    "id": "fri-2",
+    "title": "Výroba rekvizit",
+    "time": "11:00-13:30",
+    "day": "Pátek",
+    "description": "Garant: Veruru"
+  },
+  {
+    "id": "fri-3",
+    "title": "Otrocký larp",
+    "time": "11:00-12:00",
+    "day": "Pátek",
+    "description": "Garant: Akira"
+  },
+  {
+    "id": "fri-4",
+    "title": "Break",
+    "time": "12:00-12:30",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-5",
+    "title": "Jídlo na helmáči pro orgy/otroky",
+    "time": "12:30-13:30",
+    "day": "Pátek",
+    "description": "Garant: Slunce"
+  },
+  {
+    "id": "fri-6",
+    "title": "Snídaně 2",
+    "time": "13:30-15:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-7",
+    "title": "Rozložení zázemí",
+    "time": "15:00-16:00",
+    "day": "Pátek",
+    "description": "Garant: Wooden"
+  },
+  {
+    "id": "fri-8",
+    "title": "Rozložení hospody",
+    "time": "15:00-16:00",
+    "day": "Pátek",
+    "description": "Garant: Anet"
+  },
+  {
+    "id": "fri-9",
+    "title": "Break",
+    "time": "16:00-16:30",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-10",
+    "title": "Rituál",
+    "time": "16:30-17:30",
+    "day": "Pátek",
+    "description": "Garant: Martini"
+  },
+  {
+    "id": "fri-11",
+    "title": "Podmínky otroků",
+    "time": "16:30-17:30",
+    "day": "Pátek",
+    "description": "Garant: Tumi"
+  },
+  {
+    "id": "fri-12",
+    "title": "Break",
+    "time": "17:30-18:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-13",
+    "title": "Manuál schvalování zbraní",
+    "time": "18:00-20:30",
+    "day": "Pátek",
+    "description": "Garant: Canthal"
+  },
+  {
+    "id": "fri-14",
+    "title": "Registrace organizátorů a registrační balíčky",
+    "time": "18:00-19:00",
+    "day": "Pátek",
+    "description": "Garant: Hulk"
+  },
+  {
+    "id": "fri-15",
+    "title": "Break",
+    "time": "19:00-19:30",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-16",
+    "title": "Malá rada",
+    "time": "19:30-20:30",
+    "day": "Pátek",
+    "description": "Garant: Martini"
+  },
+  {
+    "id": "fri-17",
+    "title": "Beerpong",
+    "time": "21:00-22:00",
+    "day": "Pátek",
+    "description": "Garant: Sirka"
+  },
+  {
+    "id": "sat-1",
+    "title": "Snídaně",
+    "time": "10:00-11:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-2",
+    "title": "Výroba rekvizit",
+    "time": "11:00-13:30",
+    "day": "Sobota",
+    "description": "Garant: Veruru"
+  },
+  {
+    "id": "sat-3",
+    "title": "Bitevní questy",
+    "time": "11:00-12:00",
+    "day": "Sobota",
+    "description": "Garant: Pallando"
+  },
+  {
+    "id": "sat-4",
+    "title": "Mimobitevní program",
+    "time": "11:00-12:00",
+    "day": "Sobota",
+    "description": "Garant: Slunce"
+  },
+  {
+    "id": "sat-5",
+    "title": "Break",
+    "time": "12:00-12:30",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-6",
+    "title": "Workshopy",
+    "time": "12:30-13:30",
+    "day": "Sobota",
+    "description": "Garant: Jana"
+  },
+  {
+    "id": "sat-7",
+    "title": "Merch",
+    "time": "12:30-13:30",
+    "day": "Sobota",
+    "description": "Garant: Tumi"
+  },
+  {
+    "id": "sat-8",
+    "title": "Snídaně 2",
+    "time": "13:30-15:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-9",
+    "title": "Kreativní psaní a socky",
+    "time": "15:00-16:00",
+    "day": "Sobota",
+    "description": "Garant: Arrany"
+  },
+  {
+    "id": "sat-10",
+    "title": "Break",
+    "time": "16:00-16:30",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-11",
+    "title": "Zpětnovazební dotazník",
+    "time": "16:30-17:30",
+    "day": "Sobota",
+    "description": "Garant: Martini"
+  },
+  {
+    "id": "sat-12",
+    "title": "Ceník hospody",
+    "time": "16:30-17:30",
+    "day": "Sobota",
+    "description": "Garant: Anet"
+  },
+  {
+    "id": "sat-13",
+    "title": "Break",
+    "time": "17:30-18:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-14",
+    "title": "Proofreading webu",
+    "time": "18:00-19:00",
+    "day": "Sobota",
+    "description": "Garant: Martini"
+  },
+  {
+    "id": "sat-15",
+    "title": "Break",
+    "time": "19:00-19:30",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-16",
+    "title": "Zapracování připomínek",
+    "time": "19:30-20:30",
+    "day": "Sobota",
+    "description": "Garant: Tumi"
+  },
+  {
+    "id": "sat-17",
+    "title": "Uzávěr",
+    "time": "20:30-21:00",
+    "day": "Sobota",
+    "description": "Garant: Tumi"
+  },
+  {
+    "id": "sat-18",
+    "title": "Firejam/promítání fotek",
+    "time": "21:00-22:00",
+    "day": "Sobota",
+    "description": "Garant: Wash"
+  },
+  {
+    "id": "sun-1",
+    "title": "Snídaně",
+    "time": "10:00-11:00",
+    "day": "Neděle"
   }
 ]

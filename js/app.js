@@ -68,9 +68,7 @@ async function renderHome(container) {
             <div class="event-card">
                 <span class="event-time">${ev.time} | ${ev.day}</span>
                 <h2 class="event-title">${ev.title}</h2>
-                <div class="event-meta">
-                    <span>Lokalita: ${ev.location}</span>
-                </div>
+                ${ev.location ? `<div class="event-meta"><span>Lokalita: ${ev.location}</span></div>` : ''}
                 <a href="#/event/${ev.id}" class="btn mt-2">Detail události a účastníci</a>
             </div>
         `;
@@ -95,8 +93,8 @@ async function renderEventDetail(container, eventId) {
         <a href="#/" class="mb-2" style="display:inline-block">&larr; Zpět na program</a>
         <h1 class="page-title">${event.title}</h1>
         <p class="event-time">${event.time} | ${event.day}</p>
-        <p class="mt-2"><strong>Místo:</strong> ${event.location}</p>
-        <p class="event-description">${event.description}</p>
+        ${event.location ? `<p class="mt-2"><strong>Místo:</strong> ${event.location}</p>` : ''}
+        ${event.description ? `<p class="event-description">${event.description}</p>` : ''}
     `;
 
     if (state.user) {
