@@ -63,7 +63,8 @@ function updateNav() {
 }
 
 async function renderHome(container) {
-    let html = `<h1 class="page-title">Program koňference</h1>`;
+    const titleText = state.filter === 'mine' ? 'Můj osobní program' : 'Program koňference';
+    let html = `<h1 class="page-title">${titleText}</h1>`;
 
     if (state.user) {
         // Fetch current signups on render to be always up-to-date
