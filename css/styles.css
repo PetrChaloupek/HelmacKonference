@@ -77,6 +77,16 @@ a:hover {
   font-weight: 900;
   font-size: 1.2rem;
   letter-spacing: 0.1em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 24px;
+  width: auto;
+  /* Logo je černé, hlavička také. Invertujeme ho tedy do bílé. */
+  filter: invert(1);
 }
 
 #nav-user-status {
