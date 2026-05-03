@@ -62,20 +62,36 @@ async function renderHome(container) {
     let html = `<h1 class="page-title">Program koňference</h1>`;
     if (state.events.length === 0) {
         html += `<p>Žádný program zatím nebyl zveřejněn.</p>`;
-    }
-    for (const ev of state.events) {
-        const garant = ev.description ? ev.description.replace('Garant: ', '') : '';
-        html += `
-            <div class="event-card">
-                <div class="event-tags">
-                    <span class="event-time">${ev.time} | ${ev.day}</span>
-                    ${garant ? `<span class="event-time">${garant}</span>` : ''}
-                </div>
-                <h2 class="event-title">${ev.title}</h2>
-                ${ev.location ? `<div class="event-meta"><span>Lokalita: ${ev.location}</span></div>` : ''}
-                <a href="#/event/${ev.id}" class="btn mt-2">Detail události a účastníci</a>
-            </div>
-        `;
+    } else {
+        const days = {};
+        for (const ev of state.events) {
+            if (!days[ev.day]) days[ev.day] = {};
+            if (!days[ev.day][ev.time]) days[ev.day][ev.time] = [];
+            days[ev.day][ev.time].push(ev);
+        }
+
+        for (const day in days) {
+            html += `<h2 class="day-title">${day}</h2>`;
+            for (const time in days[day]) {
+                const slots = days[day][time];
+                html += `<div class="time-slot-row">`;
+                for (const ev of slots) {
+                    const garant = ev.description ? ev.description.replace('Garant: ', '') : '';
+                    html += `
+                        <div class="event-card">
+                            <div class="event-tags">
+                                <span class="event-time">${ev.time}</span>
+                                ${garant ? `<span class="event-time">${garant}</span>` : ''}
+                            </div>
+                            <h2 class="event-title">${ev.title}</h2>
+                            ${ev.location ? `<div class="event-meta"><span>Lokalita: ${ev.location}</span></div>` : ''}
+                            <a href="#/event/${ev.id}" class="btn mt-2" style="margin-top: auto;">Detail a účastníci</a>
+                        </div>
+                    `;
+                }
+                html += `</div>`;
+            }
+        }
     }
     container.innerHTML = html;
 }
