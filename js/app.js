@@ -65,15 +65,16 @@ async function renderHome(container) {
     } else {
         const days = {};
         for (const ev of state.events) {
+            const startTime = ev.time.split('-')[0].trim();
             if (!days[ev.day]) days[ev.day] = {};
-            if (!days[ev.day][ev.time]) days[ev.day][ev.time] = [];
-            days[ev.day][ev.time].push(ev);
+            if (!days[ev.day][startTime]) days[ev.day][startTime] = [];
+            days[ev.day][startTime].push(ev);
         }
 
         for (const day in days) {
             html += `<h2 class="day-title">${day}</h2>`;
-            for (const time in days[day]) {
-                const slots = days[day][time];
+            for (const startTime in days[day]) {
+                const slots = days[day][startTime];
                 html += `<div class="time-slot-row">`;
                 for (const ev of slots) {
                     const garant = ev.description ? ev.description.replace('Garant: ', '') : '';
