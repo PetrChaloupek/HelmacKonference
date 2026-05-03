@@ -70,8 +70,8 @@ async function renderHome(container) {
         // Fetch current signups on render to be always up-to-date
         state.userSignups = await api.getUserSignups(state.user.id);
         
-        const btnAllClass = state.filter === 'all' ? 'btn' : 'btn btn-secondary';
-        const btnMineClass = state.filter === 'mine' ? 'btn' : 'btn btn-secondary';
+        const btnAllClass = state.filter === 'all' ? 'btn btn-active' : 'btn';
+        const btnMineClass = state.filter === 'mine' ? 'btn btn-active' : 'btn';
         html += `
             <div class="filter-toggle">
                 <button id="filter-all" class="${btnAllClass}">Kompletní program</button>
@@ -133,7 +133,7 @@ async function renderHome(container) {
                         </div>
                         <h2 class="event-title">${ev.title}</h2>
                         ${ev.location ? `<div class="event-meta"><span>Lokalita: ${ev.location}</span></div>` : ''}
-                        <a href="#/event/${ev.id}" class="btn mt-2" style="margin-top: auto;">Detail a účastníci</a>
+                        <a href="#/event/${ev.id}" class="btn-link">Detail a účastníci &rarr;</a>
                     </div>
                 `;
             }
@@ -179,7 +179,7 @@ async function renderEventDetail(container, eventId) {
     `;
 
     if (state.user) {
-        const btnClass = isSignedUp ? "btn btn-secondary" : "btn";
+        const btnClass = isSignedUp ? "btn" : "btn-primary";
         const btnText = isSignedUp ? "Zrušit účast" : "Přihlásit se k účasti";
         html += `
             <div class="mt-4">
