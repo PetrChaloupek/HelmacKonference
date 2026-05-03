@@ -64,9 +64,13 @@ async function renderHome(container) {
         html += `<p>Žádný program zatím nebyl zveřejněn.</p>`;
     }
     for (const ev of state.events) {
+        const garant = ev.description ? ev.description.replace('Garant: ', '') : '';
         html += `
             <div class="event-card">
-                <span class="event-time">${ev.time} | ${ev.day}</span>
+                <div class="event-tags">
+                    <span class="event-time">${ev.time} | ${ev.day}</span>
+                    ${garant ? `<span class="event-time">${garant}</span>` : ''}
+                </div>
                 <h2 class="event-title">${ev.title}</h2>
                 ${ev.location ? `<div class="event-meta"><span>Lokalita: ${ev.location}</span></div>` : ''}
                 <a href="#/event/${ev.id}" class="btn mt-2">Detail události a účastníci</a>
@@ -89,12 +93,15 @@ async function renderEventDetail(container, eventId) {
         isSignedUp = await api.hasUserSignedUp(state.user.id, eventId);
     }
 
+    const garant = event.description ? event.description.replace('Garant: ', '') : '';
     let html = `
         <a href="#/" class="mb-2" style="display:inline-block">&larr; Zpět na program</a>
         <h1 class="page-title">${event.title}</h1>
-        <p class="event-time">${event.time} | ${event.day}</p>
+        <div class="event-tags">
+            <span class="event-time">${event.time} | ${event.day}</span>
+            ${garant ? `<span class="event-time">${garant}</span>` : ''}
+        </div>
         ${event.location ? `<p class="mt-2"><strong>Místo:</strong> ${event.location}</p>` : ''}
-        ${event.description ? `<p class="event-description">${event.description}</p>` : ''}
     `;
 
     if (state.user) {

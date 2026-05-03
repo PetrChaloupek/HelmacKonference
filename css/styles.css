@@ -132,6 +132,12 @@ main {
   transform: translateY(-2px);
 }
 
+.event-tags {
+  display: flex;
+  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+}
+
 .event-time {
   font-weight: 700;
   background-color: var(--color-black);
