@@ -156,8 +156,8 @@ function renderLogin(container) {
         
         <form id="login-form">
             <div class="form-group">
-                <label for="name">Vaše jméno a příjmení</label>
-                <input type="text" id="name" required placeholder="Např. Tumi">
+                <label for="name">Tvoje přezdívka</label>
+                <input type="text" id="name" required placeholder="Např. Hulk">
             </div>
             <button type="submit" class="btn" id="login-submit">Vstoupit do aplikace</button>
         </form>
