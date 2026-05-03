@@ -59,7 +59,7 @@ function updateNav() {
 }
 
 async function renderHome(container) {
-    let html = `<h1 class="page-title">Program konference</h1>`;
+    let html = `<h1 class="page-title">Program koňference</h1>`;
     if (state.events.length === 0) {
         html += `<p>Žádný program zatím nebyl zveřejněn.</p>`;
     }
@@ -149,7 +149,7 @@ function renderLogin(container) {
     }
 
     container.innerHTML = `
-        <h1 class="page-title">Vstup na konferenci</h1>
+        <h1 class="page-title">Vstup na koňferenci</h1>
         <p class="mb-4">Zadejte prosím své jméno. Bude sloužit jako vaše vizitka v seznamu účastníků událostí.</p>
         
         <div id="login-alert"></div>
