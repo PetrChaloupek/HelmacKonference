@@ -48,9 +48,10 @@
   },
   {
     "id": "fri-6",
-    "title": "Snídaně 2",
+    "title": "Snídaně 2: Indie (i ve vege verzi)",
     "time": "13:30-15:00",
-    "day": "Pátek"
+    "day": "Pátek",
+    "description": "Garant: Renča"
   },
   {
     "id": "fri-7",
@@ -175,9 +176,10 @@
   },
   {
     "id": "sat-8",
-    "title": "Snídaně 2",
+    "title": "Snídaně 2: Guláš (i ve vege verzi)",
     "time": "13:30-15:00",
-    "day": "Sobota"
+    "day": "Sobota",
+    "description": "Garant: Mery"
   },
   {
     "id": "sat-9",
