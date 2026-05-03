@@ -94,50 +94,34 @@ async function renderHome(container) {
     } else {
         const eventsByDay = {};
         for (const ev of eventsToRender) {
-            if (!eventsByDay[ev.day]) eventsByDay[ev.day] = [];
-            eventsByDay[ev.day].push(ev);
+            if (!eventsByDay[ev.day]) eventsByDay[ev.day] = {};
+            const startTime = ev.time.split('-')[0].trim();
+            if (!eventsByDay[ev.day][startTime]) eventsByDay[ev.day][startTime] = [];
+            eventsByDay[ev.day][startTime].push(ev);
         }
 
         for (const day in eventsByDay) {
             html += `<h2 class="day-title">${day}</h2>`;
-            
-            const timeSet = new Set();
-            for (const ev of eventsByDay[day]) {
-                const times = ev.time.split('-');
-                timeSet.add(times[0].trim());
-                if (times[1]) timeSet.add(times[1].trim());
-            }
-            const sortedTimes = Array.from(timeSet).sort();
-            
-            const timeToIndex = {};
-            sortedTimes.forEach((t, i) => { timeToIndex[t] = i + 1; });
 
-            html += `<div class="calendar-grid-wrapper"><div class="calendar-grid">`;
-            for (const ev of eventsByDay[day]) {
-                const times = ev.time.split('-');
-                const start = times[0].trim();
-                const end = times[1] ? times[1].trim() : start;
-                
-                const startRow = timeToIndex[start];
-                let endRow = timeToIndex[end];
-                if (startRow === endRow) endRow += 1;
-                
-                const gridStyle = `grid-row: ${startRow} / ${endRow};`;
-                const garant = ev.description ? ev.description.replace('Garant: ', '') : '';
-                
-                html += `
-                    <div class="event-card" style="${gridStyle}">
-                        <div class="event-tags">
-                            <span class="event-time">${ev.time}</span>
-                            ${garant ? `<span class="event-time">${garant}</span>` : ''}
+            for (const startTime in eventsByDay[day]) {
+                const slots = eventsByDay[day][startTime];
+                html += `<div class="time-slot-row">`;
+                for (const ev of slots) {
+                    const garant = ev.description ? ev.description.replace('Garant: ', '') : '';
+                    html += `
+                        <div class="event-card">
+                            <div class="event-tags">
+                                <span class="event-time">${ev.time}</span>
+                                ${garant ? `<span class="event-time">${garant}</span>` : ''}
+                            </div>
+                            <h2 class="event-title">${ev.title}</h2>
+                            ${ev.location ? `<div class="event-meta"><span>Lokalita: ${ev.location}</span></div>` : ''}
+                            <a href="#/event/${ev.id}" class="btn-link">Detail a účastníci &rarr;</a>
                         </div>
-                        <h2 class="event-title">${ev.title}</h2>
-                        ${ev.location ? `<div class="event-meta"><span>Lokalita: ${ev.location}</span></div>` : ''}
-                        <a href="#/event/${ev.id}" class="btn-link">Detail a účastníci &rarr;</a>
-                    </div>
-                `;
+                    `;
+                }
+                html += `</div>`;
             }
-            html += `</div></div>`;
         }
     }
     container.innerHTML = html;

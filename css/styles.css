@@ -174,28 +174,25 @@ main {
 /* ============================================================
    KALENDÁŘOVÁ MŘÍŽKA
    ============================================================ */
-.calendar-grid-wrapper {
-  padding-bottom: var(--spacing-sm);
-  margin-bottom: var(--spacing-md);
-}
-
-/* Mobilní: agenda (jeden sloupec) */
-.calendar-grid {
+/* Řádek časového slotu: paralelní události vedle sebe (max 3) */
+.time-slot-row {
   display: flex;
-  flex-direction: column;
   gap: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+  align-items: stretch;
 }
 
-/* Tablet a PC: CSS Grid */
-@media (min-width: 768px) {
-  .calendar-grid-wrapper {
-    overflow-x: auto;
-  }
+.time-slot-row .event-card {
+  flex: 1 1 0;
+  min-width: 0;
+  /* Na desktopu max 3 sloupce: u jednoho 100%, dvou 50%, tří 33% */
+  max-width: 100%;
+}
 
-  .calendar-grid {
-    display: grid;
-    grid-auto-columns: minmax(280px, 1fr);
-    grid-auto-flow: column;
+/* Mobilní: vždy jeden sloupec */
+@media (max-width: 767px) {
+  .time-slot-row {
+    flex-direction: column;
   }
 }
 
