@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Montserrat:wght@900&display=swap');
+        
+        .font-mono { font-family: 'Courier Prime', monospace; }
+        .font-black { font-family: 'Montserrat', sans-serif; font-weight: 900; }
+        
+        /* Ořez do tvaru loga Helmac (špička nahoře) */
+        .helmac-shape {
+            clip-path: polygon(50% 0%, 100% 15%, 100% 100%, 0% 100%, 0% 15%);
+        }
+    </style>
+</head>
+<body class="bg-gray-300 p-10 flex flex-wrap gap-10 justify-center items-start">
+
+    <!-- NÁVRH 1: Jmenovka (Badge) -->
+    <div class="bg-white w-72 h-[26rem] helmac-shape shadow-2xl flex flex-col relative border-8 border-white outline outline-4 outline-black">
+        <!-- Černá špička simulující horní část loga -->
+        <div class="h-24 bg-black w-full flex items-center justify-center text-white pt-4">
+            <span class="font-mono text-sm tracking-widest font-bold uppercase">Helmac '26</span>
+        </div>
+        
+        <!-- Tělo jmenovky -->
+        <div class="p-6 flex flex-col flex-grow justify-between text-center border-t-4 border-black">
+            <div class="mt-4">
+                <h1 class="font-black text-5xl uppercase tracking-tighter">Tumi</h1>
+                <p class="font-mono text-sm mt-4 font-bold border-t-2 border-black pt-2">Head of Merchandising</p>
+                <p class="font-mono text-xs">& Closure Operations</p>
+            </div>
+            
+            <div class="border-t-2 border-black pt-2 flex justify-between items-end text-left">
+                <p class="font-mono text-[10px] uppercase font-bold leading-tight">Security Clearance:<br>Level Beta</p>
+                <!-- Placeholder pro QR kód -->
+                <div class="w-12 h-12 bg-black flex items-center justify-center text-white font-mono text-[8px]">QR</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NÁVRH 2: Sponzorské Áčko na stůl (Catering) -->
+    <div class="bg-white w-96 h-64 shadow-2xl flex flex-col relative border-4 border-black text-center justify-center p-8">
+        <p class="font-mono text-sm uppercase font-bold mb-2">Phase 1 Energy Supply</p>
+        <h2 class="font-black text-4xl uppercase tracking-tighter leading-none mb-4">Mery Culinary<br>Solutions™</h2>
+        <div class="border-t-4 border-black pt-4">
+            <p class="font-mono text-sm italic">"Fueling your innovation cycle with synergy-optimized food."</p>
+        </div>
+    </div>
+
+</body>
+</html>

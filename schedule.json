@@ -1,0 +1,34 @@
+[
+  {
+    "id": "event-1",
+    "title": "Opening Keynote: Future of Merchandising",
+    "time": "09:00–10:00",
+    "day": "2026-09-12",
+    "location": "Main Hall",
+    "description": "Zahajovací přednáška o budoucnosti retailu, inovativních přístupech a optimalizaci operací. Proběhne představení vize pro rok 2026 a dále."
+  },
+  {
+    "id": "event-2",
+    "title": "Synergy in Culinary Solutions",
+    "time": "10:30–12:00",
+    "day": "2026-09-12",
+    "location": "Room Beta",
+    "description": "Workshop zaměřený na optimalizaci cateringu pomocí synergie. Zjistíte, jak 'Fueling your innovation cycle with synergy-optimized food' funguje v praxi."
+  },
+  {
+    "id": "event-3",
+    "title": "Closure Operations Security",
+    "time": "13:00–14:30",
+    "day": "2026-09-12",
+    "location": "Main Hall",
+    "description": "Hloubkový pohled na bezpečnostní prověrky (zejména Level Beta), krizové scénáře a nejlepší praktiky pro closure operations v korporátním prostředí."
+  },
+  {
+    "id": "event-4",
+    "title": "Networking & Energy Supply",
+    "time": "15:00–17:00",
+    "day": "2026-09-12",
+    "location": "Lounge",
+    "description": "Neformální networking spojený s degustací Phase 1 Energy Supply od Mery Culinary Solutions™. Diskutujte s kolegy a získejte kontakty."
+  }
+]
