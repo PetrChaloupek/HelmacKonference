@@ -1,255 +1,3859 @@
 [
   {
     "id": "thu-1",
+    "title": "Flex: Zajet pro štěrk a vysypat cesty",
+    "time": "16:00-20:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "fri-1",
+    "title": "Mlynář seče louky",
+    "time": "08:00-20:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-2",
+    "title": "Návoz od Duba",
+    "time": "12:00-20:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-3",
+    "title": "Domluvit JZD na vodu a dovézt vodu",
+    "time": "14:00-16:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "sat-1",
+    "title": "MOL sklad",
+    "time": "08:00-12:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-2",
+    "title": "Makadam",
+    "time": "10:00-11:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-3",
+    "title": "Vykopat latrínu",
+    "time": "10:00-11:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-4",
+    "title": "Posekat kolem hospody",
+    "time": "10:00-11:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-5",
+    "title": "Příprava brutálkoviště na navezení písku",
+    "time": "10:00-12:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-6",
+    "title": "Stavba hangárů",
+    "time": "13:00-15:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-7",
+    "title": "Flex: Přesun hospodského hangáru",
+    "time": "16:00-18:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-8",
+    "title": "Návoz beden od mlynáře",
+    "time": "16:00-18:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-9",
+    "title": "Zajet pro benzín",
+    "time": "17:00-18:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-10",
+    "title": "Postavit registračku",
+    "time": "18:00-19:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-11",
+    "title": "Inventura beden",
+    "time": "18:00-19:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sun-1",
+    "title": "Složit lešení 2 vlečky",
+    "time": "08:00-11:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-2",
+    "title": "Flex: Vyznačit cesty na tábořišti",
+    "time": "08:00-09:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-3",
+    "title": "Flex: Vyznačit obchody",
+    "time": "08:00-09:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-4",
+    "title": "Návoz od mlynáře",
+    "time": "08:00-20:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-5",
+    "title": "Razit helmíky",
+    "time": "13:30-18:30",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-6",
+    "title": "Návoz od Duba",
+    "time": "13:45-17:45",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-7",
+    "title": "Flex: Oprava mostu na hradební louku",
+    "time": "14:00-16:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-8",
+    "title": "Stavba lešení",
+    "time": "14:00-17:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "mon-1",
+    "title": "Flex: Vyznačit cestu",
+    "time": "08:00-09:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-2",
+    "title": "Cesta do Znojma pro bagr",
+    "time": "08:00-10:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-3",
+    "title": "Flex: Trezor/regál do obchůdku",
+    "time": "08:00-12:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-4",
+    "title": "Snídaně",
+    "time": "08:00-09:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-5",
+    "title": "Stavba hradby a města",
+    "time": "08:00-20:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-6",
+    "title": "Stavba kuchyně + hospody",
+    "time": "08:00-20:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-7",
+    "title": "Stavba posezení",
+    "time": "09:00-10:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-8",
+    "title": "Bagrování",
+    "time": "10:00-14:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-9",
+    "title": "Odpadky",
+    "time": "10:00-11:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-10",
+    "title": "Zajet pro písek a štěrk",
+    "time": "10:30-12:30",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-11",
+    "title": "Dovézt oběd",
+    "time": "11:00-12:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-12",
+    "title": "Oběd",
+    "time": "12:00-13:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-13",
+    "title": "Návoz od mlynáře",
+    "time": "13:00-15:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-14",
+    "title": "Stavba kadibudek",
+    "time": "13:00-16:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-15",
+    "title": "Dovézt večeři",
+    "time": "13:30-14:30",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-16",
+    "title": "Třídění obkladových desek",
+    "time": "14:00-15:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-17",
+    "title": "Dovézt vodu",
+    "time": "14:30-15:30",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-18",
+    "title": "Dovézt pivo z Rozkoše",
+    "time": "15:00-16:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-19",
+    "title": "Výroba podlazek na pódium",
+    "time": "17:00-18:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-20",
+    "title": "Ohřát večeři",
+    "time": "17:00-18:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-21",
+    "title": "Večeře",
+    "time": "18:00-19:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "tue-1",
+    "title": "Dodělat ocelový pod sudy",
+    "time": "08:00-09:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-2",
+    "title": "Stromy na most",
+    "time": "08:00-09:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-3",
+    "title": "Výroba regálu",
+    "time": "08:00-18:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-4",
+    "title": "Vrácení bagru",
+    "time": "08:00-10:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-5",
+    "title": "Stavba hradby a města",
+    "time": "08:00-20:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-6",
+    "title": "Výroba podlazek na pódium",
+    "time": "09:00-10:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-7",
+    "title": "Vystřihování registrace",
+    "time": "09:00-16:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-8",
+    "title": "Nákup",
+    "time": "10:00-11:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-9",
+    "title": "Návoz písku na brutálkovště",
+    "time": "10:00-12:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-10",
+    "title": "Stavba podia",
+    "time": "10:00-18:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-11",
+    "title": "Zjistit, kde je slunce na hradební - kde postavit zástěny v bázích",
+    "time": "13:00-14:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-12",
+    "title": "Vyrobit most",
+    "time": "13:00-14:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-13",
+    "title": "Zajet pro vodu",
+    "time": "13:15-14:15",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-14",
+    "title": "Půjčit centrálu a velký vozík",
+    "time": "13:30-15:30",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-15",
+    "title": "Tvorba ohrádky",
+    "time": "15:00-16:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-16",
+    "title": "Umýt barely",
+    "time": "15:00-17:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-17",
+    "title": "Uvařit večeři",
+    "time": "16:00-18:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "wed-1",
+    "title": "Školka",
+    "time": "00:00-00:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-2",
+    "title": "Stavba mostu",
+    "time": "08:00-12:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-3",
+    "title": "Flex: Dovézt pivní sety",
+    "time": "08:00-10:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-4",
+    "title": "Stavba hradby a města",
+    "time": "08:00-18:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-5",
+    "title": "Mrazák od Duba",
+    "time": "08:00-10:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-6",
+    "title": "Umýt barely",
+    "time": "09:00-11:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-7",
+    "title": "Oprava žebříků",
+    "time": "09:00-14:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-8",
+    "title": "Zvětšit brutalkoviste",
+    "time": "10:00-11:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-9",
+    "title": "Roznést ocelové na odpad",
+    "time": "11:00-12:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-10",
+    "title": "Most na kekel",
+    "time": "11:00-15:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-11",
+    "title": "Dovézt vodu",
+    "time": "13:00-15:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-12",
+    "title": "Elektrika",
+    "time": "13:00-14:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-13",
+    "title": "Úklid",
+    "time": "15:30-16:30",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-14",
+    "title": "Dovézt pivo z Rozkoše",
+    "time": "16:00-17:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-15",
+    "title": "Flex: Zdenál a psí plachta",
+    "time": "20:00-21:00",
+    "day": "Středa"
+  },
+  {
+    "id": "thu-2",
+    "title": "Úklid",
+    "time": "08:00-09:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-3",
+    "title": "Elektrika na podium",
+    "time": "08:00-09:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-4",
+    "title": "Zničit stůl",
+    "time": "09:00-10:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-5",
+    "title": "Otroci na rozhodování kekelu - požadavek of Martiniho",
+    "time": "10:00-11:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-6",
+    "title": "Dovézt kotlinu z Bojanovic",
+    "time": "15:00-18:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-7",
+    "title": "Mlynář - klády, akáty",
+    "time": "20:00-21:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "fri-4",
+    "title": "Příprava bojiště v lese",
+    "time": "07:45-12:45",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-5",
+    "title": "Oprava a úprava města",
+    "time": "07:45-09:45",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-6",
+    "title": "Kompenzace elixíru za benzín",
+    "time": "08:00-09:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-7",
+    "title": "5 žebříku",
+    "time": "08:00-09:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-8",
+    "title": "Závoz a nákup na sobotu a neděli",
+    "time": "08:00-09:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-9",
+    "title": "Ochtar Brno Znojmo",
+    "time": "08:00-09:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-10",
+    "title": "Dřevo na guláš - Otar??",
+    "time": "08:00-09:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-11",
+    "title": "Umýt barely",
+    "time": "08:00-09:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-12",
+    "title": "Sobota celý den někdo do hospody",
+    "time": "08:30-09:30",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-13",
+    "title": "Vlajkonoši, veteráni",
+    "time": "09:30-10:30",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-14",
+    "title": "Prkna/latě do lesa",
+    "time": "10:00-11:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-15",
+    "title": "Návoz piva",
+    "time": "13:30-14:30",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-16",
+    "title": "Dovézt vodu",
+    "time": "15:00-16:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-17",
+    "title": "Zástěny v průchodu",
+    "time": "16:00-17:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-18",
+    "title": "Nosítka",
+    "time": "16:00-17:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-19",
+    "title": "Uvařit koprovku",
+    "time": "17:00-18:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-20",
+    "title": "Zkontrolovat nabíječky a vysílačky",
+    "time": "21:30-22:30",
+    "day": "Pátek"
+  },
+  {
+    "id": "sat-12",
+    "title": "Čtverec 7x7 v lese",
+    "time": "08:00-09:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-13",
+    "title": "Oprava zázemí, spadané hangáry",
+    "time": "08:00-09:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-14",
+    "title": "Kontrola hradby a města",
+    "time": "08:00-09:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-15",
+    "title": "Nový guláš",
+    "time": "08:00-09:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-16",
+    "title": "Vysypat most",
+    "time": "08:00-09:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-17",
+    "title": "Naladit vysílačky na 1",
+    "time": "08:30-09:30",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-18",
+    "title": "Uvařit oběd",
+    "time": "10:00-12:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-19",
+    "title": "Uvařit večeři",
+    "time": "16:00-18:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-20",
+    "title": "Uvařit večeři",
+    "time": "17:00-19:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-21",
+    "title": "Ohnovka?",
+    "time": "19:30-20:30",
+    "day": "Sobota"
+  },
+  {
+    "id": "sun-9",
+    "title": "Flex: Zaházet kadiboudy",
+    "time": "08:00-09:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-10",
+    "title": "Složit hradbu",
+    "time": "08:00-19:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-11",
+    "title": "Stromy na střechu",
+    "time": "13:00-14:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-12",
+    "title": "Naložit trámy a proklady",
+    "time": "18:30-19:30",
+    "day": "Neděle"
+  },
+  {
+    "id": "mon-22",
+    "title": "Vrátit centrálu a vozík a sudy",
+    "time": "08:00-10:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-23",
+    "title": "Flex: Odvoz patry setů",
+    "time": "08:00-10:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-24",
+    "title": "Odvézt proklady a trámy",
+    "time": "08:00-09:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-25",
+    "title": "Zabalit MOL",
+    "time": "10:00-14:30",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-26",
+    "title": "Nachystat první lešení",
+    "time": "12:00-13:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-27",
+    "title": "Složit pódium",
+    "time": "15:00-16:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-28",
+    "title": "Odvoz věcí do MOLu",
+    "time": "16:00-20:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-29",
+    "title": "Odvoz lešení",
+    "time": "16:00-18:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-30",
+    "title": "Nachystat druhé lešení",
+    "time": "18:00-19:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-31",
+    "title": "Umýt kadibudky",
+    "time": "18:30-19:30",
+    "day": "Pondělí"
+  },
+  {
+    "id": "tue-18",
+    "title": "Návoz k mlynáři",
+    "time": "08:00-11:30",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-19",
+    "title": "Flex: Vrátit kuchyňský hangár",
+    "time": "08:00-10:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-20",
+    "title": "Složit kuchyň",
+    "time": "10:00-11:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-21",
+    "title": "Nachystat odpadky",
+    "time": "14:00-16:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-22",
+    "title": "Odvoz odpadků",
+    "time": "16:00-17:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "wed-16",
+    "title": "Přebírání tábora",
+    "time": "00:00-00:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-17",
+    "title": "Flex: Ochtar seče kolem hospody",
+    "time": "09:00-10:45",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-18",
+    "title": "Mlynář seče louky",
+    "time": "09:00-20:00",
+    "day": "Středa"
+  },
+  {
+    "id": "thu-8",
+    "title": "Flex: Příprava brutálkoviště na návoz písku",
+    "time": "09:00-10:45",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-9",
+    "title": "Flex: Zajet pro štěrk na cestu",
+    "time": "14:15-17:30",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-10",
+    "title": "Flex: Zajet na pilu pro dřevo",
+    "time": "14:15-17:30",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-11",
+    "title": "Flex: Dovézt vodu",
+    "time": "14:15-17:30",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "fri-21",
+    "title": "Flex: Zajet pro benzín",
+    "time": "09:00-10:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-22",
+    "title": "Stavba kadibudek",
+    "time": "09:00-12:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-23",
+    "title": "Flex: Nákup všeho možného",
+    "time": "09:00-10:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-24",
+    "title": "Vyzvednout dodávku ve Znojmě",
+    "time": "09:00-09:15",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-25",
+    "title": "Návoz MOL + Brno",
+    "time": "09:15-12:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-26",
+    "title": "Flex: Přijede bagr, vykope latríny a chlazení na pivo",
+    "time": "12:00-14:15",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-27",
+    "title": "Flex: Návoz od Duba",
+    "time": "14:00-16:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-28",
+    "title": "Postavit MOL hangár",
+    "time": "14:15-16:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-29",
+    "title": "Častotice louka - vysílačky, nastřelovačky (Zdenál)",
+    "time": "19:00-20:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "sat-22",
+    "title": "Nachystat snídani",
+    "time": "07:00-08:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-23",
+    "title": "Návoz od Mlynáře",
+    "time": "08:00-19:45",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-24",
+    "title": "Návoz od Vrtala trochu pro nás",
+    "time": "09:00-11:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-25",
+    "title": "Flex: vyřešit zelenou kadiboudu",
+    "time": "09:00-10:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-26",
+    "title": "Složit lešení z vlečky",
+    "time": "09:00-10:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-27",
+    "title": "Postavit pařník",
+    "time": "09:30-10:30",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-28",
+    "title": "Odpadky: koše a plachtu",
+    "time": "09:45-10:45",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-29",
+    "title": "Postavit párty stany",
+    "time": "10:30-11:30",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-30",
+    "title": "Uvařit oběd",
+    "time": "11:00-12:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-31",
+    "title": "Postavit registračku",
+    "time": "11:30-12:45",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-32",
+    "title": "📬 Vyzvednutí: Hagrid do vlastních rukou",
+    "time": "14:00-15:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-33",
+    "title": "Elektro",
+    "time": "15:00-19:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-34",
+    "title": "Stavba lešení",
+    "time": "16:00-18:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-35",
+    "title": "Uvařit večeři",
+    "time": "18:00-19:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sun-13",
+    "title": "Stavba hradby",
+    "time": "08:00-20:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-14",
+    "title": "Stavba zázemí, hospody",
+    "time": "09:00-13:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-15",
+    "title": "Flex: Dovézt pivní sety",
+    "time": "09:15-10:15",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-16",
+    "title": "Uvařit oběd",
+    "time": "11:00-12:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-17",
+    "title": "Přístřešky za registračku",
+    "time": "13:00-14:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-18",
+    "title": "Nařezat u mlynáře trámky",
+    "time": "14:00-15:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-19",
+    "title": "Zprovoznit pípu",
+    "time": "14:00-17:15",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-20",
+    "title": "Kadiboudy",
+    "time": "15:00-16:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-21",
+    "title": "Razit helmíky",
+    "time": "15:00-18:30",
+    "day": "Neděle"
+  },
+  {
+    "id": "mon-32",
+    "title": "Stavba hradby",
+    "time": "09:00-20:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-33",
+    "title": "Vyzvednout vozík na kubíkovku ve Znojmě",
+    "time": "09:00-10:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-34",
+    "title": "Flex: Vyznačit obchody",
+    "time": "09:00-10:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-35",
+    "title": "Hagrid: Bourání a převoz pódia",
+    "time": "09:00-12:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-36",
+    "title": "Flex: Oprava mostu na hradební louku",
+    "time": "09:00-10:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-37",
+    "title": "Flex: Návoz od Vrtala",
+    "time": "09:00-10:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-38",
+    "title": "Flex: Vyznačit cesty na tábořišti",
+    "time": "09:00-10:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-39",
+    "title": "Flex: Vyrobit a nainstalovat závory",
+    "time": "10:00-11:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-40",
+    "title": "Desinfekce",
+    "time": "10:00-11:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-41",
+    "title": "Vrácení dodávky",
+    "time": "10:00-10:15",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-42",
+    "title": "Zástěna na odpoadky",
+    "time": "10:00-11:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-43",
+    "title": "Zápěry a kolíky",
+    "time": "10:15-11:15",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-44",
+    "title": "Umýt barely",
+    "time": "11:00-12:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-45",
+    "title": "Dovézt oběd",
+    "time": "11:00-12:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-46",
+    "title": "Rekvizity",
+    "time": "11:30-18:30",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-47",
+    "title": "Povstavit umývárku",
+    "time": "12:00-14:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-48",
+    "title": "Třídění obkladových desek",
+    "time": "13:00-14:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-49",
+    "title": "Uvařit večeři",
+    "time": "18:00-19:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "tue-23",
+    "title": "Stavba hradby",
+    "time": "09:00-12:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-24",
+    "title": "Rekvizity",
+    "time": "09:00-20:45",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-25",
+    "title": "Barel od Lurtze",
+    "time": "09:00-10:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-26",
+    "title": "Dovézt vodu",
+    "time": "09:00-10:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-27",
+    "title": "Flex: Stavba mostu na námořní louku",
+    "time": "09:00-10:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-28",
+    "title": "Flex: Vyznačit cestu",
+    "time": "09:00-10:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-29",
+    "title": "Zprovoznit umývárku",
+    "time": "10:00-11:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-30",
+    "title": "Paleta u mostu - výstraha",
+    "time": "10:00-11:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-31",
+    "title": "Skříňky přesunout pod střechu",
+    "time": "10:00-11:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-32",
+    "title": "Sběr odpadků",
+    "time": "10:00-11:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-33",
+    "title": "Dovézt oběd",
+    "time": "11:00-12:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-34",
+    "title": "Oběd - medovina?",
+    "time": "11:00-12:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-35",
+    "title": "Vystřihování registrace",
+    "time": "11:00-12:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-36",
+    "title": "Razit helmíky",
+    "time": "12:00-13:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-37",
+    "title": "Ponorky",
+    "time": "12:15-13:15",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-38",
+    "title": "Oprava a výroba nového opláštění u mlynáře",
+    "time": "13:15-14:15",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-39",
+    "title": "Monty kolik?",
+    "time": "15:00-16:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-40",
+    "title": "Meltiner: psíplachta, vrtáky, řemdih, kostým Nazghula, lékárna",
+    "time": "19:00-20:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-41",
+    "title": "Flex: Zdenál a psí plachta",
+    "time": "19:00-20:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "wed-19",
+    "title": "Školka",
+    "time": "00:00-00:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-20",
+    "title": "Registračka služba",
+    "time": "08:00-18:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-21",
+    "title": "Cesta lesem na tábor",
+    "time": "08:00-09:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-22",
+    "title": "Rekvizity dodělávky",
+    "time": "08:00-09:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-23",
+    "title": "Stavba města",
+    "time": "08:00-15:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-24",
+    "title": "Šifrovačka",
+    "time": "08:00-09:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-25",
+    "title": "Příprava bojiště v lese",
+    "time": "09:00-10:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-26",
+    "title": "Zapojit druhou pípu",
+    "time": "09:00-10:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-27",
+    "title": "Návoz účastnické bagáže",
+    "time": "09:00-10:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-28",
+    "title": "Flex: Návoz od Vrtala",
+    "time": "09:00-10:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-29",
+    "title": "Naplnit kubikovku",
+    "time": "09:00-10:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-30",
+    "title": "Oprava žebříků",
+    "time": "09:45-14:45",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-31",
+    "title": "Štěrk - hodně",
+    "time": "10:00-11:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-32",
+    "title": "Rozcestníky",
+    "time": "10:00-11:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-33",
+    "title": "Přístěnek pro školku",
+    "time": "11:00-12:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-34",
+    "title": "Zapojit podium",
+    "time": "11:00-12:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-35",
+    "title": "Kolíky na město",
+    "time": "11:00-12:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-36",
+    "title": "Navézt písek do školky",
+    "time": "12:00-13:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-37",
+    "title": "Přečerpat vodu",
+    "time": "21:30-22:30",
+    "day": "Středa"
+  },
+  {
+    "id": "thu-12",
+    "title": "Uklidit u hradby",
+    "time": "08:00-09:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-13",
+    "title": "Stožáry na hradbu",
+    "time": "08:00-09:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-14",
+    "title": "Odměny za Jugger a obchodníky",
+    "time": "08:00-09:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-15",
+    "title": "Oprava města - Pallando",
+    "time": "09:00-10:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-16",
+    "title": "Úklid zázemí",
+    "time": "09:00-10:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-17",
+    "title": "Projektily do balist a vrhací kopí",
+    "time": "09:00-10:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-18",
+    "title": "Oprava střechy nad pivem",
+    "time": "10:00-11:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-19",
+    "title": "Test ponorek",
+    "time": "10:00-11:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-20",
+    "title": "Vyrobit 5 žebříky",
+    "time": "11:00-12:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-21",
+    "title": "Odvoz zbytků k mlynáři a výroba 4 opláštění",
+    "time": "11:00-12:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-22",
+    "title": "6 pivních setů od Duba",
+    "time": "12:00-13:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-23",
+    "title": "Mlynář: Rozšířit přístřešek",
+    "time": "13:00-17:45",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "fri-30",
+    "title": "Voda",
+    "time": "08:00-09:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-31",
+    "title": "Uklidit lukostřelbu",
+    "time": "08:00-09:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-32",
+    "title": "Test hradby",
+    "time": "08:00-09:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-33",
+    "title": "Mlynář: Rozšířit přístřešek",
+    "time": "08:00-11:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-34",
+    "title": "Hulk point - díra v hradbě, měkčení",
+    "time": "09:00-10:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-35",
+    "title": "Impregnace olifantů",
+    "time": "09:00-10:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-36",
+    "title": "Přijede zvukař, natahat, stožár",
+    "time": "10:00-11:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-37",
+    "title": "Nosítka",
+    "time": "13:00-14:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-38",
+    "title": "Prikurtovat přístavy",
+    "time": "13:00-14:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-39",
+    "title": "Vyzbrojování olifantů rekvizity",
+    "time": "13:00-14:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-40",
+    "title": "Zkontrolovat nabíječky a vysílačky",
+    "time": "20:00-21:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "sat-36",
+    "title": "Kdo schvaluje kostýmy?",
+    "time": "08:30-09:30",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-37",
+    "title": "Briefing na bitvu",
+    "time": "09:00-10:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-38",
+    "title": "Kompletace trebuchetu",
+    "time": "09:30-10:30",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-39",
+    "title": "Oprava hradby",
+    "time": "10:00-11:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sun-22",
+    "title": "Složit hradbu",
+    "time": "09:00-20:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-23",
+    "title": "Flex: Zaházet kadiboudy",
+    "time": "09:00-10:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-24",
+    "title": "Uvařit oběd",
+    "time": "11:00-12:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-25",
+    "title": "Uvařit večeři",
+    "time": "18:00-19:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "mon-50",
+    "title": "Flex: Odvoz patry setů",
+    "time": "09:00-10:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-51",
+    "title": "Vyzvednout dodávku v Brně",
+    "time": "09:00-09:15",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-52",
+    "title": "Vrátit centrálu a vozík a sudy",
+    "time": "09:00-10:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-53",
+    "title": "Zabalit MOL",
+    "time": "09:00-13:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-54",
+    "title": "Dovézt oběd",
+    "time": "11:00-12:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-55",
+    "title": "Nachystat první lešení",
+    "time": "12:00-13:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-56",
+    "title": "Umýt kadibudky",
+    "time": "13:00-14:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-57",
+    "title": "Návoz k mlynáři",
+    "time": "13:00-16:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-58",
+    "title": "Složit pódium",
+    "time": "14:00-15:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-59",
+    "title": "Odvoz věcí do MOLu",
+    "time": "15:00-19:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-60",
+    "title": "Odvoz lešení",
+    "time": "16:00-18:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-61",
+    "title": "Nachystat druhé lešení",
+    "time": "18:00-19:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "tue-42",
+    "title": "Složit kuchyň",
+    "time": "09:00-10:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-43",
+    "title": "Flex: Vrátit dodávku",
+    "time": "09:00-09:15",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-44",
+    "title": "Návoz k mlynáři",
+    "time": "09:00-13:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-45",
+    "title": "Flex: Vrátit kuchyňský hangár",
+    "time": "09:00-10:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-46",
+    "title": "Dovézt oběd",
+    "time": "11:00-12:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-47",
+    "title": "Nachystat odpadky",
+    "time": "14:00-16:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-48",
+    "title": "Odvoz odpadků",
+    "time": "16:00-17:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "sun-26",
+    "title": "Helmášek schůzka",
+    "time": "19:00-21:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "wed-38",
+    "title": "Přebírání tábora",
+    "time": "00:00-00:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-39",
+    "title": "Mlynář seče louku",
+    "time": "09:00-17:15",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-40",
+    "title": "Flex: Sekání trávy kolem hospody",
+    "time": "09:00-10:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-41",
+    "title": "Přijede Obelix a Dub",
+    "time": "20:00-21:00",
+    "day": "Středa"
+  },
+  {
+    "id": "thu-24",
+    "title": "Flex: Dovézt vodu",
+    "time": "09:00-10:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-25",
+    "title": "Flex: Zajet pro štěrk na cestu",
+    "time": "09:00-10:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-26",
+    "title": "Flex: Pokácet stromy",
+    "time": "09:00-10:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-27",
+    "title": "Flex: Příprava brutálkoviště na návoz písku",
+    "time": "09:00-10:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "fri-41",
+    "title": "Půjčení auta a návoz lešení",
+    "time": "07:00-17:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-42",
+    "title": "Flex: Návoz MOL + Brno",
+    "time": "17:00-20:45",
+    "day": "Pátek"
+  },
+  {
+    "id": "sat-40",
+    "title": "Flex: vyřešit zelenou kadiboudu",
+    "time": "07:00-08:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-41",
+    "title": "Nachystat snídani",
+    "time": "07:00-08:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-42",
+    "title": "??? Vyzvednout dodávku v Brně",
+    "time": "07:00-08:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-43",
+    "title": "Flex: Zajet pro benzín",
+    "time": "07:00-08:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-44",
+    "title": "Flex: Stavba kadibudek",
+    "time": "07:00-08:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-45",
+    "title": "Flex: Přijede bagr, vykope latríny a chlazení na pivo",
+    "time": "07:00-08:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-46",
+    "title": "Návoz od Mlynáře",
+    "time": "08:00-18:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-47",
+    "title": "??? Návoz od Vrtala trochu pro nás",
+    "time": "08:00-10:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-48",
+    "title": "Flex: Návoz od Duba",
+    "time": "08:00-09:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-49",
+    "title": "Postavit kuchyň",
+    "time": "08:00-09:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-50",
+    "title": "Postavit párty stany",
+    "time": "09:00-10:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-51",
+    "title": "Dovézt vodu",
+    "time": "11:00-12:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-52",
+    "title": "Postavit MOL hangár",
+    "time": "12:00-13:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-53",
+    "title": "Uvařit oběd",
+    "time": "12:00-13:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-54",
+    "title": "Přístřešky za registračku",
+    "time": "13:00-14:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-55",
+    "title": "Postavit registračku",
+    "time": "14:00-15:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-56",
+    "title": "Zprovoznit pípu",
+    "time": "15:00-17:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-57",
+    "title": "Uvařit večeři",
+    "time": "18:00-19:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-58",
+    "title": "Kadiboudy",
+    "time": "19:00-20:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sun-27",
+    "title": "Stavba mostu na hradebku",
+    "time": "07:00-08:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-28",
+    "title": "Návoz od mlynáře",
+    "time": "07:00-12:15",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-29",
+    "title": "Vyskladat dodávku a vlečku",
+    "time": "07:00-08:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-30",
+    "title": "Ukotvit přístřešky",
+    "time": "07:00-08:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-31",
+    "title": "Zajet pro benzín",
+    "time": "07:00-08:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-32",
+    "title": "Flex: Odpadky: koše a plachtu",
+    "time": "08:00-09:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-33",
+    "title": "Stavba hradby",
+    "time": "08:00-18:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-34",
+    "title": "Návoz z Brna",
+    "time": "08:00-09:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-35",
+    "title": "Stavba zázemí, hospody",
+    "time": "09:00-10:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-36",
+    "title": "Naplnit vodu",
+    "time": "10:00-11:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-37",
+    "title": "Stan na zdravotníky",
+    "time": "11:00-12:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-38",
+    "title": "Druhá pípa",
+    "time": "12:00-13:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-39",
+    "title": "Elektro",
+    "time": "12:15-15:15",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-40",
+    "title": "Bojanovice kotlina",
+    "time": "13:00-14:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-41",
+    "title": "Mol barely, plachty latě, Prštice",
+    "time": "13:15-14:15",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-42",
+    "title": "Povstavit umývárku",
+    "time": "14:30-15:30",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-43",
+    "title": "Stavba lešení",
+    "time": "15:15-17:15",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-44",
+    "title": "Flex: Dovézt podlážky",
+    "time": "15:30-16:30",
+    "day": "Neděle"
+  },
+  {
+    "id": "mon-62",
+    "title": "Oprava a výroba nového opláštění u mlynáře",
+    "time": "08:00-09:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-63",
+    "title": "Flex: Oprava mostu na hradební louku a postavit nový most",
+    "time": "09:00-13:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-64",
+    "title": "Flex: Dovézt pivní sety z Prokopova",
+    "time": "09:00-12:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-65",
+    "title": "Stavba hradby",
+    "time": "09:00-19:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-66",
+    "title": "Flex: Návoz od Vrtala",
+    "time": "09:00-10:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-67",
+    "title": "Flex: Vyznačit cesty na tábořišti",
+    "time": "09:00-10:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-68",
+    "title": "Vyzvednout vozík na kubíkovku ve Znojmě",
+    "time": "09:00-10:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-69",
+    "title": "Odmontovat panty",
+    "time": "10:00-11:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-70",
+    "title": "Dezinfekce",
+    "time": "10:00-11:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-71",
+    "title": "Flex: Pondělí/Úterý přijede pódium",
+    "time": "10:00-11:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-72",
+    "title": "Umýt barely",
+    "time": "11:00-12:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-73",
+    "title": "Flex: Nákup všeho možného a plachty na kadiboudy",
+    "time": "11:00-12:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-74",
+    "title": "Štěrk a písek",
+    "time": "11:00-12:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-75",
+    "title": "Rekvizity",
+    "time": "11:30-18:15",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-76",
+    "title": "Vyznačit město",
+    "time": "12:00-13:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-77",
+    "title": "Dodělat umyvarky",
+    "time": "12:00-13:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-78",
+    "title": "Elektro",
+    "time": "15:00-16:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-79",
+    "title": "Postavit přístřešky/pařník",
+    "time": "16:00-17:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "tue-49",
+    "title": "Plachta na odpadky",
+    "time": "07:00-08:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-50",
+    "title": "??? Flex: Zajet na pilu pro dřevo",
+    "time": "07:00-08:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-51",
+    "title": "Cesta na parkoviště z Rozkoše",
+    "time": "08:00-09:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-52",
+    "title": "Dopravit opláštění",
+    "time": "08:00-09:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-53",
+    "title": "Dovézt vodu",
+    "time": "09:00-10:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-54",
+    "title": "Brutalkoviste",
+    "time": "09:00-10:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-55",
+    "title": "Stavba města",
+    "time": "09:00-19:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-56",
+    "title": "Stavba hradby",
+    "time": "09:00-12:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-57",
+    "title": "Flex: Stavba mostu na námořní louku",
+    "time": "09:00-10:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-58",
+    "title": "Sběr odpadků",
+    "time": "10:00-11:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-59",
+    "title": "Ponorky",
+    "time": "11:00-12:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-60",
+    "title": "Zápěry a kolíky",
+    "time": "11:00-12:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-61",
+    "title": "Projektily do balist, vrhací kopí a trebuchetu",
+    "time": "13:30-14:30",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-62",
+    "title": "Dodělat hospodské stoly atd",
+    "time": "14:00-15:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-63",
+    "title": "Koupit písek",
+    "time": "14:00-15:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-64",
+    "title": "Přesunout umyvarku",
+    "time": "15:00-16:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-65",
+    "title": "Rekvizity",
+    "time": "16:00-17:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-66",
+    "title": "Elektro přístřešky a umyvarka",
+    "time": "17:00-18:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-67",
+    "title": "Postavit školku",
+    "time": "17:15-18:15",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-68",
+    "title": "Napustit sklep",
+    "time": "17:30-18:30",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-69",
+    "title": "Záclona na zpovědnici",
+    "time": "18:30-19:30",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-70",
+    "title": "Stolek a dezinfekce k kadibudce na klidové louce",
+    "time": "19:30-20:30",
+    "day": "Úterý"
+  },
+  {
+    "id": "wed-42",
+    "title": "Školka",
+    "time": "00:00-00:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-43",
+    "title": "Brutalkoviste",
+    "time": "09:00-10:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-44",
+    "title": "Stavba města",
+    "time": "09:00-13:30",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-45",
+    "title": "Flex: Vyznačit obchody",
+    "time": "09:00-10:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-46",
+    "title": "Jídlo",
+    "time": "09:00-10:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-47",
+    "title": "Naplnit kubikovku",
+    "time": "09:00-10:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-48",
+    "title": "Registračka služba",
+    "time": "09:00-19:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-49",
+    "title": "Stavba hradby",
+    "time": "09:00-13:15",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-50",
+    "title": "Oprava a výroba žebříků",
+    "time": "09:00-13:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-51",
+    "title": "Příprava bojiště v lese",
+    "time": "09:00-12:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-52",
+    "title": "Zjistit Modřice pokuta",
+    "time": "09:30-10:30",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-53",
+    "title": "Zapojit podium",
+    "time": "10:00-11:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-54",
+    "title": "Objednat vrtala",
+    "time": "10:30-11:30",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-55",
+    "title": "Stožáry na hradbu",
+    "time": "11:00-12:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-56",
+    "title": "Nástěnka s cislama orgu",
+    "time": "11:30-12:30",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-57",
+    "title": "Uklidit u hradby",
+    "time": "12:00-13:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-58",
+    "title": "Rozcestníky",
+    "time": "12:00-13:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-59",
+    "title": "Kadibudky z venku a zevnitř očka a strhnout pásky",
+    "time": "12:45-13:45",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-60",
+    "title": "Parkování u mlynáře vyznačit",
+    "time": "13:00-14:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-61",
+    "title": "Úklid zázemí",
+    "time": "13:00-14:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-62",
+    "title": "Dodělat stoly do hospody",
+    "time": "13:30-14:30",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-63",
+    "title": "Opravit bránu",
+    "time": "14:30-15:30",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-64",
+    "title": "Mlynář - cosi na střeše",
+    "time": "15:00-16:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-65",
+    "title": "Čerpadlo druhá umyvarka",
+    "time": "15:30-16:30",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-66",
+    "title": "Test hradby",
+    "time": "16:00-17:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-67",
+    "title": "Rekvizity",
+    "time": "16:30-17:30",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-68",
+    "title": "Elektro přístřešky",
+    "time": "17:00-18:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-69",
+    "title": "Přečerpat vodu",
+    "time": "18:00-19:00",
+    "day": "Středa"
+  },
+  {
+    "id": "thu-28",
+    "title": "Registračka služba",
+    "time": "09:00-19:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-29",
+    "title": "Odpadky",
+    "time": "10:00-11:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-30",
+    "title": "Stolička na pátý barel",
+    "time": "11:00-12:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-31",
+    "title": "Rekvizity",
+    "time": "12:00-13:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-32",
+    "title": "Dodělat bránu, obložit věže, obklady na mosty a díry",
+    "time": "13:00-14:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-33",
+    "title": "Flex: Návoz od Vrtala",
+    "time": "14:00-15:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-34",
+    "title": "Dřevo na oheň",
+    "time": "15:00-16:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-35",
+    "title": "Dovézt kadiboudu",
+    "time": "16:00-17:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-36",
+    "title": "Zdravotníkům nebrat věci...!",
+    "time": "17:00-18:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "fri-43",
+    "title": "Voda",
+    "time": "09:00-10:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-44",
+    "title": "Najít detektory kovu",
+    "time": "09:00-10:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-45",
+    "title": "Vypustit do rána kubikovku",
+    "time": "09:00-10:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-46",
+    "title": "Registračka služba",
+    "time": "09:00-19:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-47",
+    "title": "Obejít auta",
+    "time": "09:00-10:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-48",
+    "title": "Druhé parkoviště",
+    "time": "09:30-10:30",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-49",
+    "title": "Mapy bojiště",
+    "time": "10:00-11:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-50",
+    "title": "Ohniště zkontrolovat",
+    "time": "10:00-11:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-51",
+    "title": "Negri do hospody",
+    "time": "10:00-11:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-52",
+    "title": "Flex: Briefing na bitvu",
+    "time": "11:00-12:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-53",
+    "title": "Kontrola rekvizit",
+    "time": "11:00-12:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-54",
+    "title": "Dodělat bránu",
+    "time": "12:00-13:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-55",
+    "title": "Návoz od vrtala",
+    "time": "13:00-14:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-56",
+    "title": "Půjčit centrálu",
+    "time": "14:00-15:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-57",
+    "title": "Dřevo na oheň",
+    "time": "15:00-16:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-58",
+    "title": "Dodělat přístřešky",
+    "time": "16:00-17:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-59",
+    "title": "Schválení zbraní",
+    "time": "17:00-18:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-60",
+    "title": "Kdo schvaluje kostýmy?",
+    "time": "17:00-18:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-61",
+    "title": "Zkontrolovat nabíječky a vysílačky",
+    "time": "18:00-19:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-62",
+    "title": "Nachystat tombolu",
+    "time": "19:00-20:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "sat-59",
+    "title": "Roznést rekvizity",
+    "time": "09:00-10:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-60",
+    "title": "Stan pro zdravotníky",
+    "time": "09:00-10:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-61",
+    "title": "Registračka služba",
+    "time": "09:00-12:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-62",
+    "title": "Oprava hradby",
+    "time": "09:00-10:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-63",
+    "title": "Domluvit předbíhání na oběd pro CP",
+    "time": "09:00-10:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-64",
+    "title": "Nařezat dřevo",
+    "time": "09:00-10:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-65",
+    "title": "Schválit ohniště",
+    "time": "09:00-10:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-66",
+    "title": "Druhý trebuchet pryč",
+    "time": "10:00-11:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-67",
+    "title": "Voda 2x",
+    "time": "11:00-12:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-68",
+    "title": "Počítadla 3x",
+    "time": "11:00-12:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-69",
+    "title": "Pravidla vytisknout",
+    "time": "11:00-12:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-70",
+    "title": "Stoly nástěnky voda do bázi",
+    "time": "11:00-12:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-71",
+    "title": "Návoz od vrtala",
+    "time": "12:00-13:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-72",
+    "title": "Opravit přístřešky",
+    "time": "13:00-14:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-73",
+    "title": "Technický člověk na bitvu",
+    "time": "14:00-15:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sun-45",
+    "title": "Složit hradbu",
+    "time": "09:00-19:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-46",
+    "title": "Flex: Zaházet kadiboudy",
+    "time": "09:00-10:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-47",
+    "title": "Harvestery",
+    "time": "10:00-11:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-48",
+    "title": "Zbývá: 5 10°, 1 12°, 5 limo",
+    "time": "14:00-15:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-49",
+    "title": "Složit pódium",
+    "time": "15:00-16:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-50",
+    "title": "Odvoz k Dubovi",
+    "time": "17:00-18:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-51",
+    "title": "Uvařit večeři",
+    "time": "18:00-19:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "mon-80",
+    "title": "Nachystat snídani",
+    "time": "07:00-08:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-81",
+    "title": "Odvoz lešení",
+    "time": "07:00-19:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-82",
+    "title": "Zabalit MOL",
+    "time": "08:00-12:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-83",
+    "title": "Rozebrat mosty",
+    "time": "08:00-09:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-84",
+    "title": "Flex: Odvoz podlážek",
+    "time": "09:00-10:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-85",
+    "title": "Vrátit centrálu a vozík a sudy",
+    "time": "10:00-11:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-86",
+    "title": "Odvézt vrtala",
+    "time": "10:00-11:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-87",
+    "title": "Uvařit oběd",
+    "time": "12:00-13:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-88",
+    "title": "Umýt kadibudky",
+    "time": "12:00-13:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-89",
+    "title": "Odvoz věcí do MOLu",
+    "time": "16:00-20:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-90",
+    "title": "Odvoz podia",
+    "time": "17:00-18:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-91",
+    "title": "Uvařit večeři",
+    "time": "18:00-19:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "tue-71",
+    "title": "Nachystat snídani",
+    "time": "07:00-08:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-72",
+    "title": "Flex: Vrátit kuchyňský hangár, Kubíková, palety",
+    "time": "07:00-08:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-73",
+    "title": "Odvoz odpadků",
+    "time": "09:00-10:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-74",
+    "title": "Nachystat odpadky",
+    "time": "09:00-11:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-75",
+    "title": "Uvařit oběd",
+    "time": "12:00-13:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-76",
+    "title": "Odvoz party setů",
+    "time": "16:00-17:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-77",
+    "title": "Uvařit večeři",
+    "time": "18:00-19:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "wed-70",
+    "title": "Nachystat snídani",
+    "time": "07:00-08:00",
+    "day": "Středa"
+  },
+  {
+    "id": "thu-37",
+    "title": "Přijede bagr, vykope latríny a chlazení na pivo",
+    "time": "07:00-08:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-38",
+    "title": "Mlynář seče louku",
+    "time": "09:00-17:15",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "fri-63",
+    "title": "zajet pro laťe 3x5",
+    "time": "00:00-00:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-64",
+    "title": "Návoz lešení",
+    "time": "07:00-14:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-65",
+    "title": "Zajet pro štěrk na cestu a vysypat cestu",
+    "time": "08:00-09:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "sat-74",
+    "title": "Nachystat snídani",
+    "time": "07:00-08:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-75",
+    "title": "Flex: Dovézt podlážky",
+    "time": "07:00-08:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-76",
+    "title": "Postavit kuchyň",
+    "time": "08:00-09:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-77",
+    "title": "Vytyčit hradbu",
+    "time": "09:00-10:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-78",
+    "title": "Wooden: Školení o nářadí",
+    "time": "10:00-10:20",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-79",
+    "title": "Nákup potravin",
+    "time": "10:00-11:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-80",
+    "title": "Oprava cesty",
+    "time": "10:00-13:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-81",
+    "title": "Flex: Návoz MOL + Brno",
+    "time": "10:30-13:30",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-82",
+    "title": "Dovézt vodu od Halečků",
+    "time": "11:00-12:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-83",
+    "title": "Rozřezat a odklidit strom",
+    "time": "13:00-14:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-84",
+    "title": "Postavit MOL hangár",
+    "time": "14:00-15:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-85",
+    "title": "Návoz od mlynáře",
+    "time": "15:00-16:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sun-52",
+    "title": "Stavba mostu na hradebku",
+    "time": "07:00-08:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-53",
+    "title": "Návoz od Mlynáře",
+    "time": "07:00-17:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-54",
+    "title": "Flex: Zajet pro benzín",
+    "time": "08:00-09:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-55",
+    "title": "Stavba hradby",
+    "time": "08:00-18:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-56",
+    "title": "Stavba zázemí, hospody",
+    "time": "09:00-10:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-57",
+    "title": "Wooden: Školení o nářadí",
+    "time": "10:00-10:20",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-58",
+    "title": "Postavit přístřešky/pařník",
+    "time": "10:00-11:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-59",
+    "title": "Dovézt vodu",
+    "time": "11:00-12:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-60",
+    "title": "Umýt kubíkovky a barely",
+    "time": "12:00-13:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-61",
+    "title": "Návoz od Duba",
+    "time": "12:00-14:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-62",
+    "title": "Stavba lešení",
+    "time": "14:00-16:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-63",
+    "title": "Dodělat každou sudou díru",
+    "time": "14:15-15:15",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-64",
+    "title": "Postavit párty stany",
+    "time": "15:00-16:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-65",
+    "title": "Povstavit umývárku",
+    "time": "15:00-16:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-66",
+    "title": "Postavit registračku",
+    "time": "16:00-17:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "mon-92",
+    "title": "Flex: Dovézt vodu",
+    "time": "07:00-08:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-93",
+    "title": "Oprava a výroba nového opláštění u mlynáře?",
+    "time": "08:00-09:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-94",
+    "title": "Flex: návoz štěrku",
+    "time": "08:00-09:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-95",
+    "title": "Vybavit kuchyň",
+    "time": "08:00-09:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-96",
+    "title": "Nákup na večeři a závod",
+    "time": "09:00-10:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-97",
+    "title": "Stavba hradby",
+    "time": "09:00-19:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-98",
+    "title": "Flex: Příprava brutálkoviště na návoz písku",
+    "time": "09:00-10:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-99",
+    "title": "Flex: Podepřít a opravit most na hradební louku",
+    "time": "09:00-13:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-100",
+    "title": "Dezinfekce",
+    "time": "09:30-10:30",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-101",
+    "title": "Wooden: Školení o nářadí",
+    "time": "10:00-10:20",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-102",
+    "title": "Roznosit a zavětrovat koše",
+    "time": "10:30-11:30",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-103",
+    "title": "Natáhnout elektro kabel od mlynáře",
+    "time": "11:00-14:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-104",
+    "title": "Rekvizity",
+    "time": "11:30-18:15",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-105",
+    "title": "Rozcestník",
+    "time": "11:30-12:30",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-106",
+    "title": "Vyznačit obchodníky",
+    "time": "12:30-13:30",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-107",
+    "title": "Natahat klády most",
+    "time": "13:00-14:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-108",
+    "title": "Návoz od vrtala",
+    "time": "13:00-14:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-109",
+    "title": "Flex: přijedou TOIky - potřeba řidič navigátor a traktor",
+    "time": "14:00-15:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-110",
+    "title": "Elektro",
+    "time": "14:00-16:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-111",
+    "title": "Flex: Neděle/Pondělí přijede pódium",
+    "time": "14:00-15:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-112",
+    "title": "Flex: Návoz od Duba",
+    "time": "15:00-16:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-113",
+    "title": "Vytyčit cestu po tábořišti",
+    "time": "15:00-16:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "mon-114",
+    "title": "Někdo uvaří večeři",
+    "time": "17:00-18:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "tue-78",
+    "title": "Flex:  Přijede psí placha",
+    "time": "08:00-09:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-79",
+    "title": "Návoz latí od Mlynáře a podpěry a stožárů a žebříky",
+    "time": "08:00-09:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-80",
+    "title": "Cesta na parkoviště z Rozkoše",
+    "time": "08:00-09:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-81",
+    "title": "Zprovoznit pípu",
+    "time": "08:00-10:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-82",
+    "title": "Přeskládat kuchyň",
+    "time": "08:00-09:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-83",
+    "title": "Brutalkoviste",
+    "time": "09:00-10:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-84",
+    "title": "Stavba hradby",
+    "time": "09:00-18:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-85",
+    "title": "Dodělat most na navy a podepřít na táborovou",
+    "time": "10:00-11:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-86",
+    "title": "Wooden: Školení o nářadí",
+    "time": "10:00-10:20",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-87",
+    "title": "Zamknout TOIky",
+    "time": "10:00-11:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-88",
+    "title": "Vyzvednout oběd",
+    "time": "10:30-11:30",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-89",
+    "title": "Odparkovat",
+    "time": "10:30-11:30",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-90",
+    "title": "Rozcestník znovu",
+    "time": "10:30-11:30",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-91",
+    "title": "Uválet cestu",
+    "time": "11:00-12:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-92",
+    "title": "Lampičky navěsit",
+    "time": "11:30-12:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-93",
+    "title": "MOL zdravo batohy",
+    "time": "11:30-12:30",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-94",
+    "title": "Postavit podium",
+    "time": "12:00-13:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-95",
+    "title": "Vysekat báze",
+    "time": "12:00-13:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-96",
+    "title": "Kontrola žebříků",
+    "time": "12:00-13:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-97",
+    "title": "Doklepnout registraci",
+    "time": "12:30-13:30",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-98",
+    "title": "Harém",
+    "time": "13:00-14:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-99",
+    "title": "Zařídit parkovacího otroka a stan",
+    "time": "13:00-14:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-100",
+    "title": "Parkovací negr",
+    "time": "14:00-20:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-101",
+    "title": "Návoz jídla",
+    "time": "14:00-15:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-102",
+    "title": "Brutálkoviště",
+    "time": "14:00-15:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-103",
+    "title": "Vyrobit přechod na hradebku",
+    "time": "15:00-16:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-104",
+    "title": "Někdo uvaří večeři",
+    "time": "17:00-18:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "tue-105",
+    "title": "Zdenál přiveze MoL věci z Kláštera",
+    "time": "20:00-21:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "wed-71",
+    "title": "Nachystat snídani",
+    "time": "08:00-09:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-72",
+    "title": "Služba ohniště",
+    "time": "09:00-10:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-73",
+    "title": "Skretino",
+    "time": "09:00-10:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-74",
+    "title": "Registračka služba",
+    "time": "09:00-19:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-75",
+    "title": "Návoz od Duba",
+    "time": "09:30-10:30",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-76",
+    "title": "Stavba školky",
+    "time": "09:30-10:30",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-77",
+    "title": "Doklepnout registraci",
+    "time": "09:30-10:30",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-78",
+    "title": "Odpadky",
+    "time": "10:00-11:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-79",
+    "title": "Zdravostan",
+    "time": "10:30-11:30",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-80",
+    "title": "Druhá pípa",
+    "time": "11:00-12:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-81",
+    "title": "Kontrola balist",
+    "time": "11:30-12:30",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-82",
+    "title": "Elektro dodělat",
+    "time": "12:00-13:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-83",
+    "title": "Obklady žebříky",
+    "time": "13:00-14:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-84",
+    "title": "Pomoc na turnaje",
+    "time": "13:00-18:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-85",
+    "title": "Nákup Hagrid",
+    "time": "13:30-14:30",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-86",
+    "title": "Dovézt písek",
+    "time": "14:00-15:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-87",
+    "title": "Postavit laca",
+    "time": "15:00-16:00",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-88",
+    "title": "Vyznačené pole",
+    "time": "16:30-17:30",
+    "day": "Středa"
+  },
+  {
+    "id": "wed-89",
+    "title": "Pomoc s večeří",
+    "time": "18:00-19:00",
+    "day": "Středa"
+  },
+  {
+    "id": "thu-39",
+    "title": "Snídaně",
+    "time": "07:00-08:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-40",
+    "title": "Odpadky",
+    "time": "08:30-09:30",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-41",
+    "title": "Parking",
+    "time": "08:30-09:30",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-42",
+    "title": "Zapojit podium",
+    "time": "09:00-10:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-43",
+    "title": "Registračka služba",
+    "time": "09:30-10:30",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-44",
+    "title": "Voda",
+    "time": "10:00-11:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-45",
+    "title": "Rekvizity",
+    "time": "10:30-11:30",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-46",
+    "title": "Elektro v harému",
+    "time": "11:00-12:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-47",
+    "title": "Přístřešky postavit",
+    "time": "12:00-13:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-48",
+    "title": "Test hradby",
+    "time": "14:00-15:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-49",
+    "title": "Večeře vařit",
+    "time": "14:30-15:30",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-50",
+    "title": "Přijedou další TOIky",
+    "time": "16:00-17:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "thu-51",
+    "title": "Rituál",
+    "time": "17:00-18:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "fri-66",
+    "title": "Nákup",
+    "time": "09:00-10:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-67",
+    "title": "Voda?",
+    "time": "10:00-11:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-68",
+    "title": "Pujceni dodavky Znojmo Suchy",
+    "time": "10:00-11:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-69",
+    "title": "Kůly na domination",
+    "time": "11:00-12:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-70",
+    "title": "Oprava hradby",
+    "time": "11:00-12:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-71",
+    "title": "Složit vozíky",
+    "time": "12:00-13:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-72",
+    "title": "Úklid lesního bojiště",
+    "time": "12:00-13:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-73",
+    "title": "Otest balist",
+    "time": "13:00-14:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-74",
+    "title": "Večeře vařit",
+    "time": "14:00-15:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-75",
+    "title": "Opalování vleže",
+    "time": "17:00-18:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-76",
+    "title": "Zkontrolovat nabíječky a vysílačky",
+    "time": "18:00-19:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-77",
+    "title": "Rituál",
+    "time": "19:00-20:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-78",
+    "title": "Aukce",
+    "time": "20:00-20:30",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-79",
+    "title": "Tombola",
+    "time": "20:30-22:30",
+    "day": "Pátek"
+  },
+  {
+    "id": "sat-86",
+    "title": "Voda",
+    "time": "07:00-08:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-87",
+    "title": "Seno na cdstu",
+    "time": "08:00-09:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-88",
+    "title": "Snídaně",
+    "time": "08:00-09:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-89",
+    "title": "Vařit večeři",
+    "time": "13:30-14:30",
+    "day": "Sobota"
+  },
+  {
+    "id": "sun-67",
+    "title": "Úklid lesního bojiště",
+    "time": "14:30-15:30",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-68",
+    "title": "Podium",
+    "time": "16:00-17:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-69",
+    "title": "Nachystat lešení",
+    "time": "17:00-18:00",
+    "day": "Neděle"
+  },
+  {
+    "id": "sun-70",
+    "title": "Flex: zázemí",
+    "time": "19:30-20:30",
+    "day": "Neděle"
+  },
+  {
+    "id": "mon-115",
+    "title": "TOIky se odvezou samy",
+    "time": "13:00-14:00",
+    "day": "Pondělí"
+  },
+  {
+    "id": "tue-106",
+    "title": "Kontejner odjede sám",
+    "time": "15:00-16:00",
+    "day": "Úterý"
+  },
+  {
+    "id": "thu-52",
+    "title": "Vráceni dodávky Znojmo Suchý",
+    "time": "08:00-09:00",
+    "day": "Čtvrtek"
+  },
+  {
+    "id": "fri-80",
+    "title": "Platba za odber vody Rozkos",
+    "time": "10:00-11:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "thu-53",
     "title": "Představení agendy víkendovky",
     "time": "20:00-20:30",
     "day": "Čtvrtek",
     "description": "Garant: Tumi"
   },
   {
-    "id": "thu-2",
+    "id": "thu-54",
     "title": "Barevné ohňové pokusy",
     "time": "21:00-21:30",
     "day": "Čtvrtek",
     "description": "Garant: Mery"
   },
   {
-    "id": "fri-1",
+    "id": "fri-81",
     "title": "Snídaně",
     "time": "10:00-11:00",
     "day": "Pátek"
   },
   {
-    "id": "fri-2",
+    "id": "fri-82",
     "title": "Výroba rekvizit",
     "time": "11:00-13:30",
     "day": "Pátek",
     "description": "Garant: Veruru"
   },
   {
-    "id": "fri-3",
+    "id": "fri-83",
     "title": "Otrocký larp",
     "time": "11:00-12:00",
     "day": "Pátek",
     "description": "Garant: Akira"
   },
   {
-    "id": "fri-4",
+    "id": "fri-84",
     "title": "Break",
     "time": "12:00-12:30",
     "day": "Pátek"
   },
   {
-    "id": "fri-5",
+    "id": "fri-85",
     "title": "Jídlo na helmáči pro orgy/otroky",
     "time": "12:30-13:30",
     "day": "Pátek",
     "description": "Garant: Slunce"
   },
   {
-    "id": "fri-6",
-    "title": "Snídaně 2: Indie (i ve vege verzi)",
-    "time": "13:30-15:00",
+    "id": "fri-86",
+    "title": "Rozložení hospody",
+    "time": "12:30-13:30",
     "day": "Pátek",
-    "description": "Garant: Renča"
+    "description": "Garant: Anet"
   },
   {
-    "id": "fri-7",
-    "title": "Rozložení zázemí",
+    "id": "fri-87",
+    "title": "Snídaně 2",
+    "time": "13:30-15:00",
+    "day": "Pátek"
+  },
+  {
+    "id": "fri-88",
+    "title": "Rozložení celé louky",
     "time": "15:00-16:00",
     "day": "Pátek",
     "description": "Garant: Wooden"
   },
   {
-    "id": "fri-8",
-    "title": "Rozložení hospody",
-    "time": "15:00-16:00",
-    "day": "Pátek",
-    "description": "Garant: Anet"
-  },
-  {
-    "id": "fri-9",
+    "id": "fri-89",
     "title": "Break",
     "time": "16:00-16:30",
     "day": "Pátek"
   },
   {
-    "id": "fri-10",
+    "id": "fri-90",
     "title": "Rituál",
     "time": "16:30-17:30",
     "day": "Pátek",
     "description": "Garant: Martini"
   },
   {
-    "id": "fri-11",
+    "id": "fri-91",
     "title": "Podmínky otroků",
     "time": "16:30-17:30",
     "day": "Pátek",
     "description": "Garant: Tumi"
   },
   {
-    "id": "fri-12",
+    "id": "fri-92",
     "title": "Break",
     "time": "17:30-18:00",
     "day": "Pátek"
   },
   {
-    "id": "fri-13",
+    "id": "fri-93",
     "title": "Manuál schvalování zbraní",
     "time": "18:00-20:30",
     "day": "Pátek",
     "description": "Garant: Canthal"
   },
   {
-    "id": "fri-14",
+    "id": "fri-94",
     "title": "Registrace organizátorů a registrační balíčky",
     "time": "18:00-19:00",
     "day": "Pátek",
     "description": "Garant: Hulk"
   },
   {
-    "id": "fri-15",
+    "id": "fri-95",
     "title": "Break",
     "time": "19:00-19:30",
     "day": "Pátek"
   },
   {
-    "id": "fri-16",
+    "id": "fri-96",
     "title": "Malá rada",
     "time": "19:30-20:30",
     "day": "Pátek",
     "description": "Garant: Martini"
   },
   {
-    "id": "fri-17",
+    "id": "fri-97",
     "title": "Beerpong",
     "time": "21:00-22:00",
     "day": "Pátek",
     "description": "Garant: Sirka"
   },
   {
-    "id": "sat-1",
+    "id": "sat-90",
     "title": "Snídaně",
     "time": "10:00-11:00",
     "day": "Sobota"
   },
   {
-    "id": "sat-2",
-    "title": "Výroba rekvizit",
-    "time": "11:00-13:30",
-    "day": "Sobota",
-    "description": "Garant: Veruru"
-  },
-  {
-    "id": "sat-3",
-    "title": "Bitevní questy",
-    "time": "11:00-12:00",
-    "day": "Sobota",
-    "description": "Garant: Pallando"
-  },
-  {
-    "id": "sat-4",
+    "id": "sat-91",
     "title": "Mimobitevní program",
     "time": "11:00-12:00",
     "day": "Sobota",
     "description": "Garant: Slunce"
   },
   {
-    "id": "sat-5",
+    "id": "sat-92",
+    "title": "Bitevní questy",
+    "time": "11:00-12:00",
+    "day": "Sobota",
+    "description": "Garant: Pallando"
+  },
+  {
+    "id": "sat-93",
+    "title": "Výroba rekvizit",
+    "time": "11:00-13:30",
+    "day": "Sobota",
+    "description": "Garant: Veruru"
+  },
+  {
+    "id": "sat-94",
     "title": "Break",
     "time": "12:00-12:30",
     "day": "Sobota"
   },
   {
-    "id": "sat-6",
-    "title": "Workshopy",
-    "time": "12:30-13:30",
-    "day": "Sobota",
-    "description": "Garant: Jana"
-  },
-  {
-    "id": "sat-7",
+    "id": "sat-95",
     "title": "Merch",
     "time": "12:30-13:30",
     "day": "Sobota",
     "description": "Garant: Tumi"
   },
   {
-    "id": "sat-8",
-    "title": "Snídaně 2: Guláš (i ve vege verzi)",
-    "time": "13:30-15:00",
+    "id": "sat-96",
+    "title": "Workshopy",
+    "time": "12:30-13:30",
     "day": "Sobota",
-    "description": "Garant: Mery"
+    "description": "Garant: Jana"
   },
   {
-    "id": "sat-9",
+    "id": "sat-97",
+    "title": "Snídaně 2",
+    "time": "13:30-15:00",
+    "day": "Sobota"
+  },
+  {
+    "id": "sat-98",
     "title": "Kreativní psaní a socky",
     "time": "15:00-16:00",
     "day": "Sobota",
     "description": "Garant: Arrany"
   },
   {
-    "id": "sat-10",
+    "id": "sat-99",
     "title": "Break",
     "time": "16:00-16:30",
     "day": "Sobota"
   },
   {
-    "id": "sat-11",
-    "title": "Zpětnovazební dotazník",
-    "time": "16:30-17:30",
-    "day": "Sobota",
-    "description": "Garant: Martini"
-  },
-  {
-    "id": "sat-12",
+    "id": "sat-100",
     "title": "Ceník hospody",
     "time": "16:30-17:30",
     "day": "Sobota",
     "description": "Garant: Anet"
   },
   {
-    "id": "sat-13",
+    "id": "sat-101",
+    "title": "Zpětnovazební dotazník",
+    "time": "16:30-17:30",
+    "day": "Sobota",
+    "description": "Garant: Martini"
+  },
+  {
+    "id": "sat-102",
     "title": "Break",
     "time": "17:30-18:00",
     "day": "Sobota"
   },
   {
-    "id": "sat-14",
+    "id": "sat-103",
     "title": "Proofreading webu",
     "time": "18:00-19:00",
     "day": "Sobota",
     "description": "Garant: Martini"
   },
   {
-    "id": "sat-15",
+    "id": "sat-104",
     "title": "Break",
     "time": "19:00-19:30",
     "day": "Sobota"
   },
   {
-    "id": "sat-16",
+    "id": "sat-105",
     "title": "Zapracování připomínek",
     "time": "19:30-20:30",
     "day": "Sobota",
     "description": "Garant: Tumi"
   },
   {
-    "id": "sat-17",
+    "id": "sat-106",
     "title": "Uzávěr",
     "time": "20:30-21:00",
     "day": "Sobota",
     "description": "Garant: Tumi"
   },
   {
-    "id": "sat-18",
+    "id": "sat-107",
     "title": "Firejam/promítání fotek",
     "time": "21:00-22:00",
     "day": "Sobota",
     "description": "Garant: Wash"
   },
   {
-    "id": "sun-1",
+    "id": "sun-71",
     "title": "Snídaně",
     "time": "10:00-11:00",
     "day": "Neděle"
