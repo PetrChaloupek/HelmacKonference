@@ -1,0 +1,45 @@
+name: Sync Google Calendar to schedule.json
+
+on:
+  schedule:
+    # Každou hodinu
+    - cron: '0 * * * *'
+  # Možnost ručního spuštění z GitHubu (Actions → Run workflow)
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install icalendar requests pytz
+
+      - name: Run calendar sync script
+        env:
+          CALENDAR_ICS_URL: ${{ secrets.CALENDAR_ICS_URL }}
+        run: python scripts/sync_calendar.py
+
+      - name: Commit and push if schedule changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add schedule.json
+          if git diff --staged --quiet; then
+            echo "Žádné změny v programu, přeskočeno."
+          else
+            git commit -m "Auto-sync: Aktualizace programu z Google Kalendáře"
+            git push
+          fi
