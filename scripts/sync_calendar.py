@@ -25,6 +25,10 @@ from icalendar import Calendar
 # Timezone konference
 TZ = pytz.timezone("Europe/Prague")
 
+# Datumé rozmezí konference (včetně) — pouze události v tomto rozsahu se zobrazí
+CONFERENCE_START = TZ.localize(datetime(2026, 5, 7, 0, 0, 0))   # Čtvrtek 7.5.2026
+CONFERENCE_END   = TZ.localize(datetime(2026, 5, 10, 23, 59, 59))  # Neděle 10.5.2026
+
 # Mapování čísel dne týdne (Python weekday()) na česká jména
 DAY_NAMES = {
     0: "Pondělí",
@@ -106,6 +110,11 @@ def fetch_events(ics_url: str):
 
         title, garant = parse_summary(summary)
         if not title:
+            continue
+
+        # Filtr: zobrazujeme jen události z víkendu konference 7.–10.5.2026
+        if not (CONFERENCE_START <= dtstart <= CONFERENCE_END):
+            print(f"  Přeskočena (mimo rozsah): {summary} ({dtstart.strftime('%d.%m.%Y %H:%M')})") 
             continue
 
         day_name = DAY_NAMES.get(dtstart.weekday(), "")
