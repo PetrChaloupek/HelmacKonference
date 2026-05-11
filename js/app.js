@@ -21,54 +21,9 @@ async function init() {
     state.events = await api.fetchSchedule();
     window.addEventListener('hashchange', router);
     router();
-
-    // Pravidelná aktualizace každých 10 minut pro skrytí proběhlých akcí
-    setInterval(() => {
-        const hash = window.location.hash || '#/';
-        if (hash === '#/') {
-            const appDiv = document.getElementById('app');
-            if (appDiv) renderHome(appDiv);
-        }
-    }, 1000 * 60 * 10);
 }
 
-// --- POMOCNÉ FUNKCE ---
 
-/**
- * Zjistí, zda událost již skončila.
- */
-function isEventPast(event) {
-    const dayOrder = ['Čtvrtek', 'Pátek', 'Sobota', 'Neděle'];
-    const now = new Date();
-    
-    // Mapování dnů pro konferenci v roce 2026:
-    // Čt (4) -> 0, Pá (5) -> 1, So (6) -> 2, Ne (0) -> 3
-    const dayToIdx = { 4: 0, 5: 1, 6: 2, 0: 3 };
-    const currentDayIdx = dayToIdx[now.getDay()];
-    
-    // Pokud nejsme v dnech konference, zobrazujeme vše (před) nebo nic (po)
-    // Pro jednoduchost: před konferencí zobrazujeme vše.
-    if (currentDayIdx === undefined) {
-        // Pokud je už po konferenci (pondělí 11.5. a dál), můžeme vše skrýt, 
-        // ale nechme to na uživateli. Tady vracíme false, aby se program neztratil úplně.
-        return false;
-    }
-
-    const eventDayIdx = dayOrder.indexOf(event.day);
-    
-    if (currentDayIdx > eventDayIdx) return true; // Den už byl
-    if (currentDayIdx < eventDayIdx) return false; // Den teprve bude
-    
-    // Je to dnes, zkontrolujeme čas konce (formát "10:00-11:00")
-    const timeParts = event.time.split('-');
-    const endTimeStr = timeParts[1] || timeParts[0];
-    const [hours, minutes] = endTimeStr.trim().split(':').map(Number);
-    
-    const eventEndTime = new Date(now);
-    eventEndTime.setHours(hours, minutes, 0, 0);
-    
-    return now > eventEndTime;
-}
 
 // --- ROUTER ---
 async function router() {
@@ -110,7 +65,7 @@ function updateNav() {
 }
 
 async function renderHome(container) {
-    const titleText = state.filter === 'mine' ? 'Můj osobní program' : 'Program koňference';
+    const titleText = state.filter === 'mine' ? 'Můj osobní program' : 'Archiv programu koňference';
     let html = `<h1 class="page-title">${titleText}</h1>`;
 
     if (state.user) {
@@ -127,7 +82,7 @@ async function renderHome(container) {
         `;
     }
 
-    let eventsToRender = state.events.filter(ev => !isEventPast(ev));
+    let eventsToRender = state.events;
 
     if (state.filter === 'mine' && state.user) {
         eventsToRender = eventsToRender.filter(ev => state.userSignups.includes(ev.id));
@@ -140,6 +95,7 @@ async function renderHome(container) {
             html += `<p>Žádný program zatím nebyl zveřejněn.</p>`;
         }
     } else {
+        const dayOrder = ['Čtvrtek', 'Pátek', 'Sobota', 'Neděle'];
         const eventsByDay = {};
         for (const ev of eventsToRender) {
             if (!eventsByDay[ev.day]) eventsByDay[ev.day] = {};
@@ -148,10 +104,15 @@ async function renderHome(container) {
             eventsByDay[ev.day][startTime].push(ev);
         }
 
-        for (const day in eventsByDay) {
+        for (const day of dayOrder) {
+            if (!eventsByDay[day]) continue;
+            
             html += `<h2 class="day-title">${day}</h2><div class="schedule-day">`;
 
-            for (const startTime in eventsByDay[day]) {
+            // Sort start times for each day
+            const startTimes = Object.keys(eventsByDay[day]).sort();
+
+            for (const startTime of startTimes) {
                 const slots = eventsByDay[day][startTime];
                 html += `<div class="time-slot-row">`;
                 for (const ev of slots) {
