@@ -41,17 +41,17 @@
   },
   {
     "id": "fri-5",
-    "title": "Rozložení hospody",
-    "time": "12:30-13:30",
-    "day": "Pátek",
-    "description": "Garant: Anet"
-  },
-  {
-    "id": "fri-6",
     "title": "Jídlo na helmáči pro orgy/otroky",
     "time": "12:30-13:30",
     "day": "Pátek",
     "description": "Garant: Slunce"
+  },
+  {
+    "id": "fri-6",
+    "title": "Rozložení hospody",
+    "time": "12:30-13:30",
+    "day": "Pátek",
+    "description": "Garant: Anet"
   },
   {
     "id": "fri-7",
@@ -74,17 +74,17 @@
   },
   {
     "id": "fri-10",
-    "title": "Rituál",
-    "time": "16:30-17:30",
-    "day": "Pátek",
-    "description": "Garant: Martini"
-  },
-  {
-    "id": "fri-11",
     "title": "Podmínky otroků",
     "time": "16:30-17:30",
     "day": "Pátek",
     "description": "Garant: Tumi"
+  },
+  {
+    "id": "fri-11",
+    "title": "Rituál",
+    "time": "16:30-17:30",
+    "day": "Pátek",
+    "description": "Garant: Martini"
   },
   {
     "id": "fri-12",
