@@ -21,17 +21,17 @@
   },
   {
     "id": "fri-2",
-    "title": "Výroba rekvizit",
-    "time": "11:00-13:30",
-    "day": "Pátek",
-    "description": "Garant: Veruru"
-  },
-  {
-    "id": "fri-3",
     "title": "Otrocký larp",
     "time": "11:00-12:00",
     "day": "Pátek",
     "description": "Garant: Akira"
+  },
+  {
+    "id": "fri-3",
+    "title": "Výroba rekvizit",
+    "time": "11:00-13:30",
+    "day": "Pátek",
+    "description": "Garant: Veruru"
   },
   {
     "id": "fri-4",
@@ -41,17 +41,17 @@
   },
   {
     "id": "fri-5",
-    "title": "Jídlo na helmáči pro orgy/otroky",
-    "time": "12:30-13:30",
-    "day": "Pátek",
-    "description": "Garant: Slunce"
-  },
-  {
-    "id": "fri-6",
     "title": "Rozložení hospody",
     "time": "12:30-13:30",
     "day": "Pátek",
     "description": "Garant: Anet"
+  },
+  {
+    "id": "fri-6",
+    "title": "Jídlo na helmáči pro orgy/otroky",
+    "time": "12:30-13:30",
+    "day": "Pátek",
+    "description": "Garant: Slunce"
   },
   {
     "id": "fri-7",
@@ -74,17 +74,17 @@
   },
   {
     "id": "fri-10",
-    "title": "Rituál",
-    "time": "16:30-17:30",
-    "day": "Pátek",
-    "description": "Garant: Martini"
-  },
-  {
-    "id": "fri-11",
     "title": "Podmínky otroků",
     "time": "16:30-17:30",
     "day": "Pátek",
     "description": "Garant: Tumi"
+  },
+  {
+    "id": "fri-11",
+    "title": "Rituál",
+    "time": "16:30-17:30",
+    "day": "Pátek",
+    "description": "Garant: Martini"
   },
   {
     "id": "fri-12",
@@ -161,17 +161,17 @@
   },
   {
     "id": "sat-6",
-    "title": "Bitevní questy",
-    "time": "12:30-13:30",
-    "day": "Sobota",
-    "description": "Garant: Pallando"
-  },
-  {
-    "id": "sat-7",
     "title": "Workshopy",
     "time": "12:30-13:30",
     "day": "Sobota",
     "description": "Garant: Jana"
+  },
+  {
+    "id": "sat-7",
+    "title": "Bitevní questy",
+    "time": "12:30-13:30",
+    "day": "Sobota",
+    "description": "Garant: Pallando"
   },
   {
     "id": "sat-8",
