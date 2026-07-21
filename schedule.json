@@ -41,17 +41,17 @@
   },
   {
     "id": "fri-5",
-    "title": "Jídlo na helmáči pro orgy/otroky",
-    "time": "12:30-13:30",
-    "day": "Pátek",
-    "description": "Garant: Slunce"
-  },
-  {
-    "id": "fri-6",
     "title": "Rozložení hospody",
     "time": "12:30-13:30",
     "day": "Pátek",
     "description": "Garant: Anet"
+  },
+  {
+    "id": "fri-6",
+    "title": "Jídlo na helmáči pro orgy/otroky",
+    "time": "12:30-13:30",
+    "day": "Pátek",
+    "description": "Garant: Slunce"
   },
   {
     "id": "fri-7",
@@ -74,17 +74,17 @@
   },
   {
     "id": "fri-10",
-    "title": "Rituál",
-    "time": "16:30-17:30",
-    "day": "Pátek",
-    "description": "Garant: Martini"
-  },
-  {
-    "id": "fri-11",
     "title": "Podmínky otroků",
     "time": "16:30-17:30",
     "day": "Pátek",
     "description": "Garant: Tumi"
+  },
+  {
+    "id": "fri-11",
+    "title": "Rituál",
+    "time": "16:30-17:30",
+    "day": "Pátek",
+    "description": "Garant: Martini"
   },
   {
     "id": "fri-12",
@@ -134,24 +134,24 @@
   },
   {
     "id": "sat-2",
+    "title": "Výroba rekvizit",
+    "time": "11:00-13:30",
+    "day": "Sobota",
+    "description": "Garant: Veruru"
+  },
+  {
+    "id": "sat-3",
     "title": "Mimobitevní program",
     "time": "11:00-12:00",
     "day": "Sobota",
     "description": "Garant: Slunce"
   },
   {
-    "id": "sat-3",
+    "id": "sat-4",
     "title": "Merch",
     "time": "11:00-12:00",
     "day": "Sobota",
     "description": "Garant: Tumi"
-  },
-  {
-    "id": "sat-4",
-    "title": "Výroba rekvizit",
-    "time": "11:00-13:30",
-    "day": "Sobota",
-    "description": "Garant: Veruru"
   },
   {
     "id": "sat-5",
