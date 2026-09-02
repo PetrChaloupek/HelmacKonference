@@ -41,17 +41,17 @@
   },
   {
     "id": "fri-5",
-    "title": "Rozložení hospody",
-    "time": "12:30-13:30",
-    "day": "Pátek",
-    "description": "Garant: Anet"
-  },
-  {
-    "id": "fri-6",
     "title": "Jídlo na helmáči pro orgy/otroky",
     "time": "12:30-13:30",
     "day": "Pátek",
     "description": "Garant: Slunce"
+  },
+  {
+    "id": "fri-6",
+    "title": "Rozložení hospody",
+    "time": "12:30-13:30",
+    "day": "Pátek",
+    "description": "Garant: Anet"
   },
   {
     "id": "fri-7",
@@ -74,17 +74,17 @@
   },
   {
     "id": "fri-10",
-    "title": "Podmínky otroků",
-    "time": "16:30-17:30",
-    "day": "Pátek",
-    "description": "Garant: Tumi"
-  },
-  {
-    "id": "fri-11",
     "title": "Rituál",
     "time": "16:30-17:30",
     "day": "Pátek",
     "description": "Garant: Martini"
+  },
+  {
+    "id": "fri-11",
+    "title": "Podmínky otroků",
+    "time": "16:30-17:30",
+    "day": "Pátek",
+    "description": "Garant: Tumi"
   },
   {
     "id": "fri-12",
@@ -141,17 +141,17 @@
   },
   {
     "id": "sat-3",
-    "title": "Výroba rekvizit",
-    "time": "11:00-13:30",
-    "day": "Sobota",
-    "description": "Garant: Veruru"
-  },
-  {
-    "id": "sat-4",
     "title": "Merch",
     "time": "11:00-12:00",
     "day": "Sobota",
     "description": "Garant: Tumi"
+  },
+  {
+    "id": "sat-4",
+    "title": "Výroba rekvizit",
+    "time": "11:00-13:30",
+    "day": "Sobota",
+    "description": "Garant: Veruru"
   },
   {
     "id": "sat-5",
@@ -161,17 +161,17 @@
   },
   {
     "id": "sat-6",
-    "title": "Bitevní questy",
-    "time": "12:30-13:30",
-    "day": "Sobota",
-    "description": "Garant: Pallando"
-  },
-  {
-    "id": "sat-7",
     "title": "Workshopy",
     "time": "12:30-13:30",
     "day": "Sobota",
     "description": "Garant: Jana"
+  },
+  {
+    "id": "sat-7",
+    "title": "Bitevní questy",
+    "time": "12:30-13:30",
+    "day": "Sobota",
+    "description": "Garant: Pallando"
   },
   {
     "id": "sat-8",
@@ -194,17 +194,17 @@
   },
   {
     "id": "sat-11",
-    "title": "Zpětnovazební dotazník",
-    "time": "16:30-17:30",
-    "day": "Sobota",
-    "description": "Garant: Martini"
-  },
-  {
-    "id": "sat-12",
     "title": "Ceník hospody",
     "time": "16:30-17:30",
     "day": "Sobota",
     "description": "Garant: Anet"
+  },
+  {
+    "id": "sat-12",
+    "title": "Zpětnovazební dotazník",
+    "time": "16:30-17:30",
+    "day": "Sobota",
+    "description": "Garant: Martini"
   },
   {
     "id": "sat-13",
